@@ -99,19 +99,32 @@ function spriteStyleNote() { return ''; }
 
 const imgBySlot = Object.fromEntries(images.slots.map((s) => [s.id, s]));
 
+// A real photograph always wins over the generated .svg placeholder, so replacing
+// an image is just: save assets/img/<slot>.jpg and rebuild.
+const IMG_EXT = ['.jpg', '.jpeg', '.png', '.webp', '.avif', '.svg'];
+
+/** Repo-relative path of the best available local file for a slot, or null. */
+function imgLocal(slotId) {
+  for (const ext of IMG_EXT) {
+    const rel = 'assets/img/' + slotId + ext;
+    if (fs.existsSync(path.join(ROOT, rel))) return rel;
+  }
+  return null;
+}
+
 /** Resolve an image slot to a src usable from `route`. Local file wins if present. */
 function imgSrc(route, slotId) {
   const s = imgBySlot[slotId];
   if (!s) throw new Error('Unknown image slot: ' + slotId);
-  const localRel = 'assets/img/' + s.id + '.jpg';
-  if (fs.existsSync(path.join(ROOT, localRel))) return asset(route, localRel);
+  const local = imgLocal(slotId);
+  if (local) return asset(route, local);
   return 'https://images.unsplash.com/' + s.remote + '?auto=format&fit=crop&w=' + s.width + '&q=80';
 }
 /** Absolute src for OG tags (must not be relative). */
 function imgAbs(slotId) {
   const s = imgBySlot[slotId];
-  const localRel = 'assets/img/' + s.id + '.jpg';
-  if (fs.existsSync(path.join(ROOT, localRel))) return site.domain + '/' + localRel;
+  const local = imgLocal(slotId);
+  if (local) return site.domain + '/' + local;
   return 'https://images.unsplash.com/' + s.remote + '?auto=format&fit=crop&w=' + s.width + '&q=80';
 }
 
@@ -119,8 +132,12 @@ function imgAbs(slotId) {
 function figure(route, slotId, caption) {
   const s = imgBySlot[slotId];
   const alt = s.decorative ? '' : esc(s.alt);
+  // Carry the slot's own aspect ratio so portrait slots are not cropped to landscape.
   return '<figure class="frame">' +
-    '<img src="' + esc(imgSrc(route, slotId)) + '" alt="' + alt + '" width="' + s.width + '" height="' + s.height + '" loading="lazy" decoding="async">' +
+    '<img src="' + esc(imgSrc(route, slotId)) + '" alt="' + alt + '"' +
+    ' width="' + s.width + '" height="' + s.height + '"' +
+    ' style="aspect-ratio:' + s.width + '/' + s.height + '"' +
+    ' loading="lazy" decoding="async">' +
     (caption ? '<figcaption>' + esc(caption) + '</figcaption>' : '') +
     '</figure>';
 }
@@ -264,7 +281,7 @@ function footer(route) {
     '<div class="footer-col"><h2>Profiles</h2>' + profiles + '</div>',
     '</div>',
     '<div class="container footer-bottom">',
-    '<span>&copy; <span data-year>2026</span> ' + esc(site.person.formalName) + '</span>',
+    '<span>&copy; <span data-current-year>2026</span> ' + esc(site.person.formalName) + '</span>',
     '<span class="footer-legal">' + legal + '</span>',
     '</div>',
     '</footer>',
@@ -315,44 +332,72 @@ function pageHero(page) {
 
 /* ------------------------------------------------------- shared renderers */
 
+// Counts are derived, never written into prose, so restoring or removing a
+// record can never leave a stale "thirty-seven papers" claim behind.
+const WORDS = ['zero','one','two','three','four','five','six','seven','eight','nine','ten',
+  'eleven','twelve','thirteen','fourteen','fifteen','sixteen','seventeen','eighteen','nineteen','twenty',
+  'twenty-one','twenty-two','twenty-three','twenty-four','twenty-five','twenty-six','twenty-seven',
+  'twenty-eight','twenty-nine','thirty','thirty-one','thirty-two','thirty-three','thirty-four',
+  'thirty-five','thirty-six','thirty-seven','thirty-eight','thirty-nine','forty'];
+const word = (n) => (n <= 40 ? WORDS[n] : String(n));
+const cap = (t) => t.charAt(0).toUpperCase() + t.slice(1);
+
+const COUNTS = {
+  publications: publications.length,
+  patentsGranted: patents.filter((p) => p.status === 'Granted').length,
+  patentsPublished: patents.filter((p) => p.status === 'Published application').length,
+  patentsFiled: patents.filter((p) => p.status === 'Filed').length,
+  phdCompleted: credentials.supervision.phdCompleted.count,
+  phdOngoing: credentials.supervision.phdOngoing.count,
+  researchAreas: research.length,
+  talks: talks.length
+};
+
 const areaByS = Object.fromEntries(research.map((r) => [r.slug, r]));
 const areaName = (s) => (areaByS[s] ? areaByS[s].name : s);
 
 function citation(p) {
-  // Harvard-style, matching the convention used in the source CV:
-  // Authors, Year. Title. Journal, Vol(Issue), pp. Pages, Art. N. https://doi.org/...
+  // Harvard-style, matching the convention used in the source CV.
+  // Year and venue are absent on records the CV lists without them.
   const a = p.authors.slice();
-  const authors = a.length > 1
-    ? a.slice(0, -1).join(', ') + ' and ' + a[a.length - 1]
-    : a[0];
+  // "et al." is a continuation, not a final co-author, so it never takes "and"
+  const last = a[a.length - 1];
+  const authors = a.length === 1 ? a[0]
+    : /^et al\.?$/i.test(last) ? a.slice(0, -1).join(', ') + ' et al.'
+    : a.slice(0, -1).join(', ') + ' and ' + last;
 
-  let out = authors + ', ' + p.year + '. ' + p.title.replace(/\.$/, '') + '. ' + p.journal;
+  // an author string ending in an initial already carries its own full stop
+  const head = p.year ? authors + ', ' + p.year : authors.replace(/\.$/, '');
+  let out = head + '. ' + p.title.replace(/\.$/, '') + '.';
+  if (p.journal) out += ' ' + p.journal;
 
   const loc = [];
   if (p.volume) loc.push(p.issue ? p.volume + '(' + p.issue + ')' : String(p.volume));
   if (p.pages) loc.push('pp. ' + p.pages);
   if (p.articleNumber) loc.push('Art. ' + p.articleNumber);
   if (loc.length) out += ', ' + loc.join(', ');
-
-  out += '.';
+  if (p.journal) out += '.';
   if (p.doi) out += ' https://doi.org/' + p.doi;
   return out;
 }
 
 function pubMetaLine(p) {
-  const parts = [String(p.year), p.journal];
+  const parts = [];
+  if (p.year) parts.push(String(p.year));
+  if (p.journal) parts.push(p.journal);
   const loc = [];
   if (p.volume) loc.push('vol. ' + p.volume);
   if (p.issue) loc.push('no. ' + p.issue);
   if (p.pages) loc.push('pp. ' + p.pages);
   if (p.articleNumber) loc.push('art. ' + p.articleNumber);
   if (loc.length) parts.push(loc.join(', '));
-  return parts.join(' · ');
+  if (!parts.length) parts.push(p.type === 'proceedings' ? 'Conference paper' : 'Journal article');
+  return parts.join(' \u00b7 ');
 }
 
 function pubCard(route, p) {
   return '<article class="pub-card">' +
-    '<p class="pub-card-meta">' + esc(p.year) + ' &middot; ' + esc(p.journal) + '</p>' +
+    '<p class="pub-card-meta">' + esc(pubMetaLine(p)) + '</p>' +
     '<h3><a href="' + url(route, 'publications/' + p.slug) + '">' + esc(p.title) + '</a></h3>' +
     '<p class="pub-card-authors">' + esc(p.authors.join(', ')) + '</p>' +
     '<p class="tags">' + p.researchAreas.map((a) => '<span class="tag">' + esc(areaName(a)) + '</span>').join('') + '</p>' +
@@ -395,6 +440,9 @@ function expand(html, route) {
       case 'email': return site.person.email;
       case 'mailto': { const [subj, label] = arg.split('|'); return '<a href="mailto:' + site.person.email + '?subject=' + encodeURIComponent(subj) + '">' + esc(label || site.person.email) + '</a>'; }
       case 'tagline': return esc(site.brand.tagline);
+      case 'n': { if (!(arg in COUNTS)) throw new Error('Unknown count {{n:' + arg + '}}'); return String(COUNTS[arg]); }
+      case 'nword': { if (!(arg in COUNTS)) throw new Error('Unknown count {{nword:' + arg + '}}'); return word(COUNTS[arg]); }
+      case 'Nword': { if (!(arg in COUNTS)) throw new Error('Unknown count {{Nword:' + arg + '}}'); return cap(word(COUNTS[arg])); }
       case 'institution': return esc(site.person.institution);
       case 'metrics': return metricsBlock();
       case 'pillars': return pillarsBlock(route);
@@ -438,19 +486,19 @@ function metricsBlock() {
     '<p class="metric-source">Citation metrics from ' + esc(m.asOf) + '. Indexing figures change over time; the date is stated so the numbers can be read in context.</p>';
 }
 
-const PILLARS = [
+function pillars() { return [
   { n: '01', key: 'EDUCATE', icon: 'users', head: 'Building minds through knowledge and mentorship.', route: 'academia',
-    copy: 'Seventeen years of teaching structural analysis, strength of materials and mechanics of solids; one doctorate completed and three in progress; more than fifteen M.Tech. projects guided. Teaching is the part of the work that compounds.' },
+    copy: 'Seventeen years of teaching structural analysis, strength of materials and mechanics of solids; ' + word(COUNTS.phdCompleted) + ' doctorates completed and ' + word(COUNTS.phdOngoing) + ' in progress; more than fifteen M.Tech. projects guided. Teaching is the part of the work that compounds.' },
   { n: '02', key: 'INNOVATE', icon: 'cube', head: 'Turning ideas into solutions.', route: 'innovation',
-    copy: 'A granted Indian patent for GI netting at RCC beam–column joints, published applications in construction 3D printing, and a funded prototype integrating reinforcement into multi-arm printing.' },
+    copy: cap(word(COUNTS.patentsGranted)) + ' granted Indian patents, ' + word(COUNTS.patentsPublished) + ' published applications in construction 3D printing, and a funded prototype integrating reinforcement into multi-arm printing.' },
   { n: '03', key: 'LEAD', icon: 'building', head: 'Creating institutions and opportunities that make a difference.', route: 'leadership',
     copy: 'As IQAC Coordinator, contributed to quality-assurance work culminating in NAAC A++ accreditation with a CGPA of 3.53. As Manager – Institution Relations, leads school outreach and academic partnerships.' },
   { n: '04', key: 'SERVE', icon: 'spark', head: 'Using knowledge, leadership and faith to make a difference.', route: 'service',
     copy: 'Committee work, admissions, school engagement and ministry. The parts of a career that rarely appear in a citation count, and which shape it anyway.' }
-];
+]; }
 
 function pillarsBlock(route) {
-  return '<div class="pillar-grid">' + PILLARS.map((p) =>
+  return '<div class="pillar-grid">' + pillars().map((p) =>
     '<article class="pillar">' +
     '<p class="pillar-n"><span>' + p.n + '</span> &mdash; ' + p.key + '</p>' +
     '<h3>' + esc(p.head) + '</h3>' +
@@ -596,17 +644,17 @@ function articleListBlock(route) {
 
 function selectedPubsBlock(route, arg) {
   const n = Number(arg || 6);
-  const list = publications.slice().sort((a, b) => b.year - a.year).slice(0, n);
+  const list = publications.slice().sort((a, b) => (b.year || 0) - (a.year || 0)).slice(0, n);
   return '<div class="pub-grid">' + list.map((p) => pubCard(route, p)).join('') + '</div>' +
     '<p class="block-foot"><a class="card-link" href="' + url(route, 'publications') + '">Browse Publications' + icon('arrow') + '</a></p>';
 }
 
 function publicationExplorerBlock(route) {
-  const years = [...new Set(publications.map((p) => p.year))].sort((a, b) => b - a);
+  const years = [...new Set(publications.map((p) => p.year).filter(Boolean))].sort((a, b) => b - a);
   const areas = research.filter((r) => publications.some((p) => p.researchAreas.includes(r.slug))).sort((a, b) => a.order - b.order);
 
-  const rows = publications.slice().sort((a, b) => b.year - a.year || a.title.localeCompare(b.title)).map((p) =>
-    '<article class="pub-row" data-year="' + p.year + '" data-areas="' + esc(p.researchAreas.join(' ')) + '" data-type="' + esc(p.type) + '" ' +
+  const rows = publications.slice().sort((a, b) => (b.year || 0) - (a.year || 0) || a.title.localeCompare(b.title)).map((p) =>
+    '<article class="pub-row" data-year="' + (p.year || '') + '" data-areas="' + esc(p.researchAreas.join(' ')) + '" data-type="' + esc(p.type) + '" ' +
     'data-text="' + esc((p.title + ' ' + p.authors.join(' ') + ' ' + p.journal).toLowerCase()) + '">' +
     '<p class="pub-row-meta">' + esc(pubMetaLine(p)) + '</p>' +
     '<h3><a href="' + url(route, 'publications/' + p.slug) + '">' + esc(p.title) + '</a></h3>' +
@@ -756,13 +804,13 @@ function publicationLd(p) {
     headline: p.title,
     name: p.title,
     author: p.authors.map((a) => ({ '@type': 'Person', name: a })),
-    datePublished: String(p.year),
     inLanguage: 'en',
     url: canonical('publications/' + p.slug),
-    isPartOf: { '@type': 'Periodical', name: p.journal },
     about: p.researchAreas.map((a) => areaName(a)),
     publisher: { '@type': 'CollegeOrUniversity', name: site.person.institution }
   };
+  if (p.year) ld.datePublished = String(p.year);
+  if (p.journal) ld.isPartOf = { '@type': 'Periodical', name: p.journal };
   if (p.volume) ld.volumeNumber = String(p.volume);
   if (p.issue) ld.issueNumber = String(p.issue);
   if (p.pages) ld.pagination = p.pages;
@@ -779,14 +827,14 @@ function renderPublication(p) {
   const page = {
     route,
     title: p.title + ' | Publication | ' + site.person.name,
-    description: p.title + ' — ' + p.authors.join(', ') + ', ' + p.journal + ', ' + p.year + '.',
+    description: p.title + ' — ' + p.authors.join(', ') + [p.journal, p.year].filter(Boolean).map((x) => ', ' + x).join('') + '.',
     type: 'ScholarlyArticle'
   };
 
   const rows = [];
   rows.push(['Authors', p.authors.join(', ')]);
-  rows.push(['Year', String(p.year)]);
-  rows.push([p.type === 'proceedings' ? 'Proceedings' : 'Journal', p.journal]);
+  if (p.year) rows.push(['Year', String(p.year)]);
+  if (p.journal) rows.push([p.type === 'proceedings' ? 'Proceedings' : 'Journal', p.journal]);
   if (p.volume) rows.push(['Volume', p.volume]);
   if (p.issue) rows.push(['Issue', p.issue]);
   if (p.pages) rows.push(['Pages', p.pages]);
@@ -796,7 +844,7 @@ function renderPublication(p) {
 
   const related = publications
     .filter((x) => x.slug !== p.slug && x.researchAreas.some((a) => p.researchAreas.includes(a)))
-    .sort((a, b) => b.year - a.year).slice(0, 3);
+    .sort((a, b) => (b.year || 0) - (a.year || 0)).slice(0, 3);
 
   const relatedPatents = patents.filter((pt) => pt.researchAreas.some((a) => p.researchAreas.includes(a)));
 
@@ -913,10 +961,7 @@ const REDIRECTS = [
   ['sermons', 'ministry'],
   ['philanthropist', 'service'],
   ['manager-institution-relations', 'institution-relations'],
-  ['patents', 'innovation'],
-  ['publications/a-review-on-confined-masonry-wall-with-opening-under-cyclic-loading', 'publications'],
-  ['publications/experimental-and-analysis-technique-of-confinement-of-brick-masonry-without-openings', 'publications'],
-  ['publications/towards-sustainable-infrastructure-a-framework-for-automated-extraction-of', 'publications']
+  ['patents', 'innovation']
 ];
 
 function renderRedirect(from, to) {
@@ -950,8 +995,8 @@ function buildSearchIndex() {
 
   for (const p of publications)
     push('publication', p.title, 'publications/' + p.slug,
-      [p.authors.join(' '), p.journal, p.year, p.doi || '', p.researchAreas.map(areaName).join(' ')].join(' '),
-      p.year + ' · ' + p.journal);
+      [p.authors.join(' '), p.journal || '', p.year || '', p.doi || '', p.researchAreas.map(areaName).join(' ')].join(' '),
+      pubMetaLine(p));
   for (const r of research)
     push('research', r.name, 'research', [r.plain, r.technical, r.problem, r.approach, r.contribution].filter(Boolean).join(' '), 'Research area');
   for (const p of patents)
@@ -998,11 +1043,11 @@ function buildSitemap() {
 /* ---------------------------------------------------------- imginf.csv */
 
 function buildImgInf() {
-  const head = ['slot_id', 'route', 'purpose', 'intended_local_path', 'current_placeholder_url', 'width', 'height', 'aspect', 'alt_text', 'brief'];
+  const head = ['slot_id', 'route', 'purpose', 'save_your_photo_as', 'currently_showing', 'width', 'height', 'aspect', 'alt_text', 'brief'];
   const q = (s) => '"' + String(s == null ? '' : s).replace(/"/g, '""') + '"';
   const rows = images.slots.map((s) => [
     s.id, s.route, s.purpose, 'assets/img/' + s.id + '.jpg',
-    'https://images.unsplash.com/' + s.remote + '?auto=format&fit=crop&w=' + s.width + '&q=80',
+    imgLocal(s.id) || ('https://images.unsplash.com/' + s.remote + '?auto=format&fit=crop&w=' + s.width + '&q=80'),
     s.width, s.height, (s.width / s.height).toFixed(2) + ':1',
     s.decorative ? '(decorative — leave alt empty)' : s.alt, s.brief
   ].map(q).join(','));

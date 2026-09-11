@@ -911,5 +911,73 @@
       "seismic-strengthening"
     ],
     "publisherUrl": null
+  },
+  {
+    "slug": "towards-sustainable-infrastructure-a-framework-for-automated-extraction-of",
+    "title": "Towards Sustainable Infrastructure: A Framework for Automated Extraction",
+    "authors": [
+      "Jebadurai, S.V.S.",
+      "et al."
+    ],
+    "year": 2024,
+    "journal": "IRO Journals",
+    "type": "journal",
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "articleNumber": null,
+    "doi": null,
+    "note": "Presented at ICET, Marthandam College of Engineering and Technology, December 2024",
+    "researchAreas": [
+      "sustainable-construction",
+      "ai-ml-construction"
+    ],
+    "publisherUrl": null
+  },
+  {
+    "slug": "a-review-on-confined-masonry-wall-with-opening-under-cyclic-loading",
+    "title": "A Review on Confined Masonry Wall with Opening under Cyclic Loading",
+    "authors": [
+      "Bharathidasan, I.",
+      "Jebadurai, S.V.S.",
+      "Nivetha, K."
+    ],
+    "year": null,
+    "journal": null,
+    "type": "journal",
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "articleNumber": null,
+    "doi": null,
+    "note": null,
+    "researchAreas": [
+      "masonry-structures",
+      "seismic-strengthening"
+    ],
+    "publisherUrl": null
+  },
+  {
+    "slug": "experimental-and-analysis-technique-of-confinement-of-brick-masonry-without-openings",
+    "title": "Experimental and Analysis Technique of Confinement of Brick Masonry without Openings",
+    "authors": [
+      "Ashin Eldhos Abraham",
+      "Vincent Sam Jebadurai, S.",
+      "Tensing, D."
+    ],
+    "year": null,
+    "journal": null,
+    "type": "journal",
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "articleNumber": null,
+    "doi": null,
+    "note": null,
+    "researchAreas": [
+      "masonry-structures",
+      "seismic-strengthening"
+    ],
+    "publisherUrl": null
   }
 ]

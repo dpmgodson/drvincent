@@ -8,14 +8,44 @@
     "grantDate": "2022-02-16",
     "term": "20 years",
     "status": "Granted",
-    "inventors": ["E. Arunraj", "S. Vincent Sam Jebadurai", "G. Hemalatha"],
+    "inventors": [
+      "E. Arunraj",
+      "S. Vincent Sam Jebadurai",
+      "G. Hemalatha"
+    ],
     "institution": "Karunya Institute of Technology and Sciences",
     "summary": "A reinforcement approach using characterised GI wire netting at RCC beam–column joints, developed to address reinforcement congestion and improve seismic performance.",
     "detail": "Beam–column joints carry the highest concentration of reinforcement in a moment-resisting frame, and that congestion makes them difficult to detail and to cast well. This method introduces characterised galvanised-iron netting at the joint as a partial restraint, reducing the shear reinforcement needed in the confined region while maintaining joint performance under cyclic demand.",
     "trl": "TRL 4",
     "commercialization": "Submitted to the TNSCST Technology Transfer and Facilitation Centre (TTFC) for commercialization, 2026",
-    "researchAreas": ["seismic-strengthening", "structural-engineering"],
+    "researchAreas": [
+      "seismic-strengthening",
+      "structural-engineering"
+    ],
     "featured": true
+  },
+  {
+    "slug": "foam-block",
+    "title": "Foam Block",
+    "patentNumber": null,
+    "applicationNumber": null,
+    "filingDate": null,
+    "grantDate": "2026-06",
+    "term": null,
+    "status": "Granted",
+    "inventors": [
+      "S. Vincent Sam Jebadurai"
+    ],
+    "institution": "Karunya Institute of Technology and Sciences",
+    "summary": "A granted Indian patent for a foam block system for building construction.",
+    "detail": "Lightweight block systems reduce dead load and improve thermal performance, both of which matter more as walls get taller and cooling loads rise. The grant certificate was issued in June 2026.",
+    "trl": null,
+    "commercialization": null,
+    "researchAreas": [
+      "construction-materials",
+      "sustainable-construction"
+    ],
+    "featured": false
   },
   {
     "slug": "3d-printing-head-reinforced-concrete",
@@ -26,13 +56,21 @@
     "grantDate": null,
     "term": null,
     "status": "Published application",
-    "inventors": ["Pratheeksh Joshy", "Sajin Philip", "S. Vincent Sam Jebadurai", "G. Hemalatha"],
+    "inventors": [
+      "Pratheeksh Joshy",
+      "Sajin Philip",
+      "S. Vincent Sam Jebadurai",
+      "G. Hemalatha"
+    ],
     "institution": "Karunya Institute of Technology and Sciences",
     "summary": "A print-head arrangement for depositing reinforced concrete structural elements, addressing the central difficulty of combining extrusion with reinforcement.",
     "detail": "Conventional concrete 3D printing deposits material in layers but leaves reinforcement as a separate, largely manual operation. This application covers a print head intended to bring the two together at the point of deposition for structural elements.",
     "trl": null,
     "commercialization": null,
-    "researchAreas": ["3d-concrete-printing", "additive-manufacturing"],
+    "researchAreas": [
+      "3d-concrete-printing",
+      "additive-manufacturing"
+    ],
     "featured": true
   },
   {
@@ -44,13 +82,21 @@
     "grantDate": null,
     "term": null,
     "status": "Published application",
-    "inventors": ["Sheeja T. V.", "S. Vincent Sam Jebadurai", "G. Hemalatha"],
+    "inventors": [
+      "Sheeja T. V.",
+      "S. Vincent Sam Jebadurai",
+      "G. Hemalatha"
+    ],
     "institution": "Karunya Institute of Technology and Sciences",
     "summary": "A mixture composition using alkaline-activated cementitious material, formulated for extrusion-based construction 3D printing.",
     "detail": "Extrusion printing constrains a mix from both directions: it must flow through the nozzle and then hold its own shape immediately afterwards. This composition approaches that window using alkaline activation rather than ordinary Portland cement alone, which also lowers the clinker content of the printed material.",
     "trl": null,
     "commercialization": null,
-    "researchAreas": ["3d-concrete-printing", "additive-manufacturing", "sustainable-construction"],
+    "researchAreas": [
+      "3d-concrete-printing",
+      "additive-manufacturing",
+      "sustainable-construction"
+    ],
     "featured": false
   },
   {
@@ -62,13 +108,20 @@
     "grantDate": null,
     "term": null,
     "status": "Filed",
-    "inventors": ["S. Vincent Sam Jebadurai", "L. Godson Asirvatham", "Bairi Levi Rakshith"],
+    "inventors": [
+      "S. Vincent Sam Jebadurai",
+      "L. Godson Asirvatham",
+      "Bairi Levi Rakshith"
+    ],
     "institution": "Karunya Institute of Technology and Sciences — filed through the Karunya INCITE Cell (IPR)",
     "summary": "An automated building-construction system combining multiple print arms so that deposition and reinforcement placement can proceed together.",
     "detail": "TriFusion is the system-level counterpart to the print-head work: rather than treating printing, reinforcement and finishing as sequential operations, it coordinates them across multiple arms. It is the invention behind the multi-arm printing project currently funded under the Karunya Short-Term Research Grant.",
     "trl": null,
     "commercialization": null,
-    "researchAreas": ["3d-concrete-printing", "additive-manufacturing"],
+    "researchAreas": [
+      "3d-concrete-printing",
+      "additive-manufacturing"
+    ],
     "featured": true
   }
 ]

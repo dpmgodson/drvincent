@@ -39,22 +39,31 @@ python3 -m http.server 8000
 | An article's body | `content/articles/<slug>.html` | `node tools/build.js` |
 
 ```bash
-node tools/build.js     # regenerate the site   (Node >= 18, no npm install needed)
-node tools/check.js     # verify links, headings, alt text, placeholders, data integrity
+node tools/build.js            # regenerate the site  (Node >= 18, no npm install needed)
+node tools/check.js            # verify links, headings, alt text, data integrity, count drift
+node tools/make-placeholders.js  # regenerate the placeholder images (rarely needed)
 ```
 
 `tools/check.js` exits non-zero on failure, so it can gate a deploy.
 
 ### Replacing the photographs
 
-`imginf.csv` lists every image slot with its required dimensions and a brief describing
-what the photograph should show. To replace one:
+Every image slot currently shows a generated placeholder committed in `assets/img/`, so
+the site renders correctly offline with no third-party image requests. `imginf.csv`
+lists each slot with its required dimensions and a brief describing what the photograph
+should show.
 
-1. Save the image as `assets/img/<slot_id>.jpg` (the slot id is the first CSV column).
+To replace one:
+
+1. Save the photograph as `assets/img/<slot_id>.jpg` (the slot id is the first CSV column).
 2. Run `node tools/build.js`.
 
-The generator uses the local file whenever it exists and falls back to the placeholder
-otherwise, so images can be replaced one at a time.
+A real photograph always wins over the `.svg` placeholder — `.jpg`, `.jpeg`, `.png`,
+`.webp` and `.avif` are all recognised — so images can be replaced one at a time.
+Each figure is emitted with its slot's own aspect ratio, so a 4:5 portrait is never
+cropped to landscape.
+
+Delete the matching `.svg` once you have supplied a real photograph.
 
 ---
 
