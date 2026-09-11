@@ -1,0 +1,12 @@
+<p>Pre-engineered building fabrication is a good setting for applied machine learning, for an unglamorous reason: the workshop already keeps the data. Every job has a bill of materials, a cutting record and a consumables draw. The records exist because accounting requires them, not because anyone intended to model anything.</p>
+
+<h2>The problem being solved</h2>
+<p>Estimating how much material and how many consumables a job will take is done from experience and from allowances carried forward between projects. It is usually close and occasionally badly wrong, and the consequences fall on procurement and on the schedule.</p>
+<p>The published work approaches this in two ways. One uses machine learning for material forecasting in fabrication. The other combines probabilistic grouping with random-forest regression to predict consumables requirements — grouping jobs that behave alike before fitting, rather than treating every job as an independent draw.</p>
+
+<h2>Why grouping first</h2>
+<p>Fabrication records are heterogeneous. A large portal frame and a small mezzanine consume material in different proportions, and a single regression across both learns the average of two different processes. Grouping jobs by their consumption behaviour before fitting lets the regression model a coherent population, which is why the combination outperforms either component alone.</p>
+
+<h2>The ongoing work</h2>
+<p>This line of research continues as doctoral work on a machine learning framework for the classification and forecasting of fabrication dynamics in pre-engineered buildings — extending from consumption prediction toward the behaviour of the fabrication process itself.</p>
+<p>None of this requires new instrumentation. It requires taking seriously data that a workshop is already generating and currently discards into a ledger.</p>

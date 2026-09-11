@@ -1,0 +1,37 @@
+[
+  {
+    "slug": "multi-arm-3d-printing-system-integrated-reinforcement",
+    "title": "Development of Multi-arm 3D Printing System with Integrated Horizontal and Vertical Reinforcement",
+    "status": "Ongoing",
+    "year": "2026",
+    "sanctionedDate": "April 2026",
+    "fundingAgency": "Karunya Short-Term Research Grant (KSRG) — Seed Money",
+    "fundingAmount": "₹1,00,000",
+    "role": "Principal Investigator",
+    "description": "Concrete 3D printing can place material accurately, but reinforcement still largely has to be added by hand, which removes much of the advantage automation offers. This project develops a multi-arm printing system in which horizontal and vertical reinforcement is integrated during deposition rather than afterwards.",
+    "researchAreas": ["3d-concrete-printing", "additive-manufacturing", "structural-engineering"],
+    "deliverables": [
+      "TriFusion 3D printing prototype",
+      "Multi-arm reinforcement integration",
+      "A 2 ft × 2 ft working model",
+      "Structural validation"
+    ],
+    "relatedPatents": ["trifusion-3d-automated-building-construction-system", "3d-printing-head-reinforced-concrete"],
+    "relatedPublications": ["additive-manufacturing-techniques-in-construction", "nano-silica-particles-as-a-structural-build-up-agent-for-3d-printing-cement-paste-with-add"]
+  },
+  {
+    "slug": "apt-m-additive-printing-technology-for-masonry",
+    "title": "APT – M: Additive Printing Technology for Masonry",
+    "status": "Submitted",
+    "year": null,
+    "sanctionedDate": null,
+    "fundingAgency": "Tamil Nadu State Council for Science and Technology (TNSCST)",
+    "fundingAmount": null,
+    "role": "Principal Investigator",
+    "description": "A proposal to extend additive printing methods to masonry construction, bringing together the masonry strengthening work of the doctoral research and the printing work that followed it.",
+    "researchAreas": ["additive-manufacturing", "masonry-structures", "3d-concrete-printing"],
+    "deliverables": [],
+    "relatedPatents": [],
+    "relatedPublications": ["additive-manufacturing-techniques-in-construction"]
+  }
+]

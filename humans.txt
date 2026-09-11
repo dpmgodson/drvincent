@@ -1,2 +1,6 @@
-Dr. S. Vincent Sam Jebadurai — personal academic and professional website.
-Website architecture prepared August 2026.
+/* SITE */
+Name:     Dr. Vincent Sam Jebadurai
+Brand:    Building Knowledge. Inspiring People. Serving with Purpose.
+Standard: HTML5, CSS3, vanilla JS. No framework, no runtime dependencies.
+Built:    tools/build.js — data in assets/data/*.json, prose in content/
+A11y:     WCAG 2.2 AA target

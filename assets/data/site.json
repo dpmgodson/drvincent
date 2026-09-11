@@ -1,0 +1,238 @@
+{
+  "domain": "https://www.vincentsamjebadurai.com",
+  "person": {
+    "name": "Dr. Vincent Sam Jebadurai",
+    "formalName": "Dr. S. Vincent Sam Jebadurai, M.E., Ph.D.",
+    "shortName": "Vincent Sam Jebadurai",
+    "roleLine": "Educator | Researcher | Academic Leader | Mentor | Minister",
+    "positions": [
+      "Assistant Professor, Division of Civil Engineering",
+      "IQAC Coordinator (NAAC)",
+      "Manager – Institution Relations"
+    ],
+    "institution": "Karunya Institute of Technology and Sciences",
+    "institutionUrl": "https://www.karunya.edu/",
+    "location": "Coimbatore – 641 114, Tamil Nadu, India",
+    "email": "vincent@karunya.edu",
+    "phones": [
+      "+91 94878 46899",
+      "+91 79040 77614"
+    ]
+  },
+  "brand": {
+    "tagline": "Building Knowledge. Inspiring People. Serving with Purpose.",
+    "essence": [
+      "Build",
+      "Inspire",
+      "Serve"
+    ],
+    "signature": "From Building Structures to Building Lives"
+  },
+  "profiles": [
+    {
+      "label": "ORCID",
+      "url": "https://orcid.org/0000-0002-9820-8103",
+      "id": "0000-0002-9820-8103"
+    },
+    {
+      "label": "Scopus",
+      "url": "https://www.scopus.com/authid/detail.uri?authorId=57194196109",
+      "id": "57194196109"
+    },
+    {
+      "label": "Google Scholar",
+      "url": "https://scholar.google.com/citations?user=_cQG3e4AAAAJ",
+      "id": "_cQG3e4AAAAJ"
+    },
+    {
+      "label": "ResearchGate",
+      "url": "https://www.researchgate.net/profile/Vincent-Sam-Jebadurai",
+      "id": null
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/vincent-sam-jebadurai-669bb69a/",
+      "id": null
+    }
+  ],
+  "metrics": {
+    "asOf": "Scopus, August 2026",
+    "items": [
+      {
+        "value": "17+",
+        "label": "Years in higher education",
+        "note": "Teaching since 2008",
+        "dated": false
+      },
+      {
+        "value": "45+",
+        "label": "Refereed publications",
+        "note": "Journals and conferences",
+        "dated": false
+      },
+      {
+        "value": "31",
+        "label": "Scopus-indexed documents",
+        "note": null,
+        "dated": true
+      },
+      {
+        "value": "209",
+        "label": "Scopus citations",
+        "note": null,
+        "dated": true
+      },
+      {
+        "value": "5",
+        "label": "h-index",
+        "note": null,
+        "dated": true
+      },
+      {
+        "value": "1",
+        "label": "Granted Indian patent",
+        "note": "Patent No. 389408, with further published applications",
+        "dated": false
+      }
+    ]
+  },
+  "nav": [
+    {
+      "label": "About",
+      "route": "about"
+    },
+    {
+      "label": "Academia",
+      "route": "academia"
+    },
+    {
+      "label": "Research",
+      "route": "research"
+    },
+    {
+      "label": "Innovation",
+      "route": "innovation"
+    },
+    {
+      "label": "Publications",
+      "route": "publications"
+    },
+    {
+      "label": "Leadership",
+      "route": "leadership"
+    },
+    {
+      "label": "Speaking",
+      "route": "speaking"
+    },
+    {
+      "label": "Ministry",
+      "route": "ministry"
+    },
+    {
+      "label": "Contact",
+      "route": "contact"
+    }
+  ],
+  "footer": [
+    {
+      "heading": "Work",
+      "links": [
+        {
+          "label": "About",
+          "route": "about"
+        },
+        {
+          "label": "Academia",
+          "route": "academia"
+        },
+        {
+          "label": "Research",
+          "route": "research"
+        },
+        {
+          "label": "Innovation",
+          "route": "innovation"
+        }
+      ]
+    },
+    {
+      "heading": "Evidence",
+      "links": [
+        {
+          "label": "Publications",
+          "route": "publications"
+        },
+        {
+          "label": "Projects",
+          "route": "projects"
+        },
+        {
+          "label": "Articles",
+          "route": "articles"
+        },
+        {
+          "label": "Media",
+          "route": "media"
+        }
+      ]
+    },
+    {
+      "heading": "Engagement",
+      "links": [
+        {
+          "label": "Leadership",
+          "route": "leadership"
+        },
+        {
+          "label": "Institution Relations",
+          "route": "institution-relations"
+        },
+        {
+          "label": "Speaking",
+          "route": "speaking"
+        },
+        {
+          "label": "Ministry",
+          "route": "ministry"
+        },
+        {
+          "label": "Service",
+          "route": "service"
+        }
+      ]
+    }
+  ],
+  "legal": [
+    {
+      "label": "Contact",
+      "route": "contact"
+    },
+    {
+      "label": "Search",
+      "route": "search"
+    },
+    {
+      "label": "Privacy",
+      "route": "privacy-policy"
+    },
+    {
+      "label": "Terms",
+      "route": "terms"
+    },
+    {
+      "label": "Accessibility",
+      "route": "accessibility"
+    }
+  ],
+  "institutionLinks": [
+    {
+      "label": "Karunya faculty profile",
+      "url": "https://www.karunya.edu/civil/faculty"
+    },
+    {
+      "label": "Karunya IQAC",
+      "url": "https://karunya.edu/statutorycommittee"
+    }
+  ]
+}

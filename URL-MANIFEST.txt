@@ -1,67 +1,87 @@
-https://www.vincentsamjebadurai.com/
-https://www.vincentsamjebadurai.com/about/
-https://www.vincentsamjebadurai.com/accessibility/
-https://www.vincentsamjebadurai.com/articles/
-https://www.vincentsamjebadurai.com/articles/3d-concrete-printing-in-construction/
-https://www.vincentsamjebadurai.com/articles/construction-automation-and-trifusion/
-https://www.vincentsamjebadurai.com/articles/deep-learning-for-building-crack-characterisation/
-https://www.vincentsamjebadurai.com/articles/machine-learning-for-peb-fabrication/
-https://www.vincentsamjebadurai.com/articles/scan-to-bim-and-structural-monitoring/
-https://www.vincentsamjebadurai.com/articles/skin-reinforcement-for-masonry-infill/
-https://www.vincentsamjebadurai.com/contact/
-https://www.vincentsamjebadurai.com/cv/
-https://www.vincentsamjebadurai.com/manager-institution-relations/
-https://www.vincentsamjebadurai.com/media/
-https://www.vincentsamjebadurai.com/motivational-speaker/
-https://www.vincentsamjebadurai.com/patents/
-https://www.vincentsamjebadurai.com/philanthropist/
-https://www.vincentsamjebadurai.com/preacher/
-https://www.vincentsamjebadurai.com/privacy-policy/
-https://www.vincentsamjebadurai.com/professor/
-https://www.vincentsamjebadurai.com/projects/
-https://www.vincentsamjebadurai.com/publications/
-https://www.vincentsamjebadurai.com/publications/a-constructive-analysis-on-topology-optimization-of-structural-beam-element-using-differen/
-https://www.vincentsamjebadurai.com/publications/a-review-on-confined-masonry-wall-with-opening-under-cyclic-loading/
-https://www.vincentsamjebadurai.com/publications/a-review-on-optimal-design-of-magneto-rheological-damper/
-https://www.vincentsamjebadurai.com/publications/additive-manufacturing-techniques-in-construction/
-https://www.vincentsamjebadurai.com/publications/ai-based-analysis-of-climatic-and-air-pollution-determinants-of-dog-bite-incidence/
-https://www.vincentsamjebadurai.com/publications/an-experimental-study-on-composite-steel-encased-portal-frame-under-cyclic-loading/
-https://www.vincentsamjebadurai.com/publications/analytical-approach-to-estimate-equivalent-strut-width-for-wire-meshed-masonry-infilled-rc/
-https://www.vincentsamjebadurai.com/publications/analytical-investigation-of-buckling-restrained-braced-frame-subjected-to-non-linear-stati/
-https://www.vincentsamjebadurai.com/publications/assessment-of-metakaolin-blended-palm-kernel-shell-solid-concrete-blocks-as-a-sustainable-/
-https://www.vincentsamjebadurai.com/publications/behaviour-of-confined-masonry-wall-under-cyclic-load/
-https://www.vincentsamjebadurai.com/publications/bioaerosols-characterization-pathways-sampling-strategies-and-challenges-to-geo-environmen/
-https://www.vincentsamjebadurai.com/publications/bridge-of-i-35-design-using-pg-super/
-https://www.vincentsamjebadurai.com/publications/bulk-usage-of-fly-ash-in-self-compacting-concrete-for-m50-grade/
-https://www.vincentsamjebadurai.com/publications/comparative-study-on-a-single-story-rcc-frame-with-large-and-small-scale-magnetorheologica/
-https://www.vincentsamjebadurai.com/publications/crack-characterisation-in-buildings-utilizing-deep-learning-techniques/
-https://www.vincentsamjebadurai.com/publications/dynamic-analysis-of-structure-using-fluid-viscous-damper-for-various-seismic-intensities/
-https://www.vincentsamjebadurai.com/publications/effect-of-inhibitive-influence-of-aqueous-extract-of-fenugreek-sprouts-on-the-corrosion-of/
-https://www.vincentsamjebadurai.com/publications/effect-of-sea-sand-in-the-behaviour-of-fresh-concrete-partially-replaced-with-m-sand/
-https://www.vincentsamjebadurai.com/publications/enhancing-performance-of-infill-masonry-with-latex-modified-mortar-subjected-to-cyclic-loa/
-https://www.vincentsamjebadurai.com/publications/enhancing-performance-of-infill-masonry-with-skin-reinforcement-subjected-to-cyclic-load/
-https://www.vincentsamjebadurai.com/publications/experimental-and-analysis-technique-of-confinement-of-brick-masonry-without-openings/
-https://www.vincentsamjebadurai.com/publications/experimental-investigation-of-toughness-enhancement-in-cement-mortar/
-https://www.vincentsamjebadurai.com/publications/experimental-studies-on-application-of-bamboo-reinforcement-in-concrete-stools/
-https://www.vincentsamjebadurai.com/publications/experimental-study-of-the-seismic-performance-of-composite-frames-encased-with-mild-steel-/
-https://www.vincentsamjebadurai.com/publications/experimental-study-on-compressive-strength-of-brick-using-natural-fibres/
-https://www.vincentsamjebadurai.com/publications/feasibility-test-of-calcium-lignosulphonate-on-clay/
-https://www.vincentsamjebadurai.com/publications/influence-of-stiffness-and-mass-parameters-on-seismic-damping-of-structures/
-https://www.vincentsamjebadurai.com/publications/influence-of-wind-loads-design-of-indian-code-compared-with-american-code/
-https://www.vincentsamjebadurai.com/publications/integrating-scan-data-to-enhance-bim-an-overview-of-techniques-mapping-strategies-and-buil/
-https://www.vincentsamjebadurai.com/publications/investigation-on-strength-properties-of-self-compacting-concrete-with-copper-slag-as-fine-/
-https://www.vincentsamjebadurai.com/publications/investigations-of-confined-steel-concrete-column-behavior-with-bolted-shear-connectors-und/
-https://www.vincentsamjebadurai.com/publications/material-forecasting-in-peb-fabrication-using-machine-learning-techniques/
-https://www.vincentsamjebadurai.com/publications/mechanical-properties-of-latex-mortar-for-brick-masonry/
-https://www.vincentsamjebadurai.com/publications/nano-silica-particles-as-a-structural-build-up-agent-for-3d-printing-cement-paste-with-add/
-https://www.vincentsamjebadurai.com/publications/optimization-in-the-design-of-prestressed-concrete-girders-using-excel-and-matlab/
-https://www.vincentsamjebadurai.com/publications/prediction-of-consumables-requirement-in-peb-manufacturing-using-probabilistic-grouping-an/
-https://www.vincentsamjebadurai.com/publications/preliminary-assessment-of-rural-airborne-microorganisms-as-emerging-environmental-hazards-/
-https://www.vincentsamjebadurai.com/publications/skin-reinforcement-for-masonry-infill-walls-subjected-to-cyclic-loading/
-https://www.vincentsamjebadurai.com/publications/studies-on-high-strength-self-compacting-concrete-with-copper-slag-for-m30-grade/
-https://www.vincentsamjebadurai.com/publications/towards-sustainable-infrastructure-a-framework-for-automated-extraction-of/
-https://www.vincentsamjebadurai.com/researcher/
-https://www.vincentsamjebadurai.com/search/
-https://www.vincentsamjebadurai.com/sermons/
-https://www.vincentsamjebadurai.com/talks/
-https://www.vincentsamjebadurai.com/terms/
+URL MANIFEST — generated by tools/build.js. Do not edit by hand.
+Site: https://www.vincentsamjebadurai.com
+
+PAGES
+  /  —  Dr. Vincent Sam Jebadurai — Educator, Researcher, Academic Leader, Mentor, Minister
+  /about/  —  About Dr. Vincent Sam Jebadurai | Building Structures. Building People.
+  /academia/  —  Academia | Teaching and Research Supervision | Dr. Vincent Sam Jebadurai
+  /research/  —  Research | Seismic Strengthening, 3D Concrete Printing, Construction Technology
+  /innovation/  —  Innovation and Patents | 3D Concrete Printing and Seismic Reinforcement
+  /publications/  —  Publications | Refereed Journal and Conference Record
+  /projects/  —  Research Projects | Funded and Proposed Work
+  /leadership/  —  Academic Leadership | IQAC Coordination and NAAC A++ Accreditation
+  /institution-relations/  —  Institution Relations | Connecting Schools and Higher Education
+  /speaking/  —  Speaking | Invited Talks, Webinars and Resource-Person Engagements
+  /ministry/  —  Ministry | Faith. Purpose. Service.
+  /service/  —  Service and Community Engagement
+  /media/  —  Media and Professional Profiles
+  /articles/  —  Articles and Research Notes
+  /search/  —  Search
+  /contact/  —  Contact | Research, Speaking and Partnership Enquiries
+  /accessibility/  —  Accessibility
+  /privacy-policy/  —  Privacy Policy
+  /terms/  —  Terms of Use
+
+PUBLICATION PAGES (37)
+  /publications/ai-based-analysis-of-climatic-and-air-pollution-determinants-of-dog-bite-incidence/  —  2026 Frontiers in Veterinary Science
+  /publications/prediction-of-consumables-requirement-in-peb-manufacturing-using-probabilistic-grouping-an/  —  2025 International Journal of Engineering Trends and Technology
+  /publications/material-forecasting-in-peb-fabrication-using-machine-learning-techniques/  —  2025 SSRG International Journal of Civil Engineering
+  /publications/crack-characterisation-in-buildings-utilizing-deep-learning-techniques/  —  2025 Przegląd Elektrotechniczny
+  /publications/preliminary-assessment-of-rural-airborne-microorganisms-as-emerging-environmental-hazards-/  —  2025 Frontiers in Environmental Science
+  /publications/integrating-scan-data-to-enhance-bim-an-overview-of-techniques-mapping-strategies-and-buil/  —  2024 Przegląd Elektrotechniczny
+  /publications/effect-of-sea-sand-in-the-behaviour-of-fresh-concrete-partially-replaced-with-m-sand/  —  2024 Research on Engineering Structures and Materials
+  /publications/experimental-study-of-the-seismic-performance-of-composite-frames-encased-with-mild-steel-/  —  2024 SSRG International Journal of Civil Engineering
+  /publications/comparative-study-on-a-single-story-rcc-frame-with-large-and-small-scale-magnetorheologica/  —  2023 Structures
+  /publications/assessment-of-metakaolin-blended-palm-kernel-shell-solid-concrete-blocks-as-a-sustainable-/  —  2023 IOP Conference Series: Earth and Environmental Science
+  /publications/an-experimental-study-on-composite-steel-encased-portal-frame-under-cyclic-loading/  —  2023 Research on Engineering Structures and Materials
+  /publications/additive-manufacturing-techniques-in-construction/  —  2022 Research on Engineering Structures and Materials
+  /publications/nano-silica-particles-as-a-structural-build-up-agent-for-3d-printing-cement-paste-with-add/  —  2022 Materials Research Proceedings
+  /publications/a-constructive-analysis-on-topology-optimization-of-structural-beam-element-using-differen/  —  2022 Materials Research Proceedings
+  /publications/bioaerosols-characterization-pathways-sampling-strategies-and-challenges-to-geo-environmen/  —  2021 Gondwana Research
+  /publications/analytical-approach-to-estimate-equivalent-strut-width-for-wire-meshed-masonry-infilled-rc/  —  2021 Civil Engineering and Architecture
+  /publications/enhancing-performance-of-infill-masonry-with-latex-modified-mortar-subjected-to-cyclic-loa/  —  2020 Structures
+  /publications/optimization-in-the-design-of-prestressed-concrete-girders-using-excel-and-matlab/  —  2020 International Journal on Emerging Technologies
+  /publications/experimental-studies-on-application-of-bamboo-reinforcement-in-concrete-stools/  —  2020 Test Engineering and Management
+  /publications/investigations-of-confined-steel-concrete-column-behavior-with-bolted-shear-connectors-und/  —  2020 Test Engineering and Management
+  /publications/enhancing-performance-of-infill-masonry-with-skin-reinforcement-subjected-to-cyclic-load/  —  2019 International Journal of Engineering, Transactions B: Applications
+  /publications/experimental-study-on-compressive-strength-of-brick-using-natural-fibres/  —  2019 International Journal of Engineering, Transactions B: Applications
+  /publications/analytical-investigation-of-buckling-restrained-braced-frame-subjected-to-non-linear-stati/  —  2019 International Journal of Engineering and Advanced Technology
+  /publications/dynamic-analysis-of-structure-using-fluid-viscous-damper-for-various-seismic-intensities/  —  2019 International Journal of Innovative Technology and Exploring Engineering
+  /publications/a-review-on-optimal-design-of-magneto-rheological-damper/  —  2018 International Journal of Mechanical and Production Engineering Research and Development
+  /publications/bridge-of-i-35-design-using-pg-super/  —  2018 International Journal of Civil Engineering and Technology
+  /publications/experimental-investigation-of-toughness-enhancement-in-cement-mortar/  —  2018 International Journal of Engineering, Transactions B: Applications
+  /publications/influence-of-stiffness-and-mass-parameters-on-seismic-damping-of-structures/  —  2018 International Journal of Engineering and Advanced Technology
+  /publications/influence-of-wind-loads-design-of-indian-code-compared-with-american-code/  —  2017 International Journal of Civil Engineering and Technology
+  /publications/effect-of-inhibitive-influence-of-aqueous-extract-of-fenugreek-sprouts-on-the-corrosion-of/  —  2017 International Journal of Mechanical Engineering and Technology
+  /publications/feasibility-test-of-calcium-lignosulphonate-on-clay/  —  2017 Rasayan Journal of Chemistry
+  /publications/skin-reinforcement-for-masonry-infill-walls-subjected-to-cyclic-loading/  —  2017 International Journal of Civil Engineering and Technology
+  /publications/mechanical-properties-of-latex-mortar-for-brick-masonry/  —  2016 International Journal of Civil Engineering and Technology
+  /publications/bulk-usage-of-fly-ash-in-self-compacting-concrete-for-m50-grade/  —  2016 International Journal of Engineering Research and General Science
+  /publications/studies-on-high-strength-self-compacting-concrete-with-copper-slag-for-m30-grade/  —  2016 International Journal of Research in Engineering and Technology
+  /publications/investigation-on-strength-properties-of-self-compacting-concrete-with-copper-slag-as-fine-/  —  2016 International Journal of Engineering Research and General Science
+  /publications/behaviour-of-confined-masonry-wall-under-cyclic-load/  —  2015 Integrated Journal of Engineering Research and Technology
+
+ARTICLE PAGES (6)
+  /articles/3d-concrete-printing-in-construction/  —  3D Concrete Printing in Construction
+  /articles/construction-automation-and-trifusion/  —  Construction Automation and TriFusion
+  /articles/deep-learning-for-building-crack-characterisation/  —  Deep Learning for Building Crack Characterisation
+  /articles/machine-learning-for-peb-fabrication/  —  Machine Learning for PEB Fabrication
+  /articles/scan-to-bim-and-structural-monitoring/  —  Scan-to-BIM and Structural Monitoring
+  /articles/skin-reinforcement-for-masonry-infill/  —  Skin Reinforcement for Masonry Infill
+
+REDIRECTS (V0.6 routes preserved, nothing 404s)
+  /professor/  ->  /academia/
+  /researcher/  ->  /research/
+  /motivational-speaker/  ->  /speaking/
+  /talks/  ->  /speaking/
+  /preacher/  ->  /ministry/
+  /sermons/  ->  /ministry/
+  /philanthropist/  ->  /service/
+  /manager-institution-relations/  ->  /institution-relations/
+  /patents/  ->  /innovation/
+  /publications/a-review-on-confined-masonry-wall-with-opening-under-cyclic-loading/  ->  /publications/
+  /publications/experimental-and-analysis-technique-of-confinement-of-brick-masonry-without-openings/  ->  /publications/
+  /publications/towards-sustainable-infrastructure-a-framework-for-automated-extraction-of/  ->  /publications/
+
+OTHER
+  /404.html, /sitemap.xml, /robots.txt, /site.webmanifest, /imginf.csv
