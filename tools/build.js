@@ -319,21 +319,24 @@ const areaByS = Object.fromEntries(research.map((r) => [r.slug, r]));
 const areaName = (s) => (areaByS[s] ? areaByS[s].name : s);
 
 function citation(p) {
-  const bits = [];
-  bits.push(p.authors.join(', '));
-  bits.push('(' + p.year + ')');
-  bits.push(p.title + '.');
-  bits.push(p.journal);
+  // Harvard-style, matching the convention used in the source CV:
+  // Authors, Year. Title. Journal, Vol(Issue), pp. Pages, Art. N. https://doi.org/...
+  const a = p.authors.slice();
+  const authors = a.length > 1
+    ? a.slice(0, -1).join(', ') + ' and ' + a[a.length - 1]
+    : a[0];
+
+  let out = authors + ', ' + p.year + '. ' + p.title.replace(/\.$/, '') + '. ' + p.journal;
+
   const loc = [];
-  if (p.volume) loc.push(p.volume);
-  if (p.issue) loc.push('(' + p.issue + ')');
-  let tail = loc.join('');
-  if (p.pages) tail += (tail ? ', ' : '') + 'pp. ' + p.pages;
-  if (p.articleNumber) tail += (tail ? ', ' : '') + 'Art. ' + p.articleNumber;
-  if (tail) bits.push(tail);
-  let out = bits.join(', ').replace(/, \(/g, ' (').replace(/\), /g, ') ');
-  if (p.doi) out += '. https://doi.org/' + p.doi;
-  return out.replace(/\.\./g, '.');
+  if (p.volume) loc.push(p.issue ? p.volume + '(' + p.issue + ')' : String(p.volume));
+  if (p.pages) loc.push('pp. ' + p.pages);
+  if (p.articleNumber) loc.push('Art. ' + p.articleNumber);
+  if (loc.length) out += ', ' + loc.join(', ');
+
+  out += '.';
+  if (p.doi) out += ' https://doi.org/' + p.doi;
+  return out;
 }
 
 function pubMetaLine(p) {
