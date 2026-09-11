@@ -1,0 +1,12 @@
+<p>Every building inspection begins with someone looking at a wall. Cracks are photographed, described in a report, and compared — often informally — against what the inspector remembers seeing elsewhere. The judgement involved is real expertise. It is also inconsistent between inspectors, and it does not scale.</p>
+
+<h2>What a model can actually do here</h2>
+<p>Crack characterisation from images is a well-posed problem for a convolutional network: the input is a photograph, the output is a classification and a geometric description. Given enough labelled examples, a model can identify a crack, trace its extent and characterise its pattern far more consistently than a human doing the hundredth wall of the week.</p>
+<p>Our published work applies deep learning to exactly this task on building imagery. The value is not that the model is cleverer than an engineer. It is that it is repeatable, and that it can process the volume of imagery a modern survey produces.</p>
+
+<h2>What it cannot do</h2>
+<p>A crack is evidence, not a diagnosis. The same visible pattern can indicate thermal movement, settlement, overload or nothing much at all, and distinguishing between them requires knowing the structure, its history and its loading. A model trained on photographs has access to none of that.</p>
+<p>So the honest framing is narrow: this is triage. It tells you where to look and what the geometry is. It does not tell you what is wrong, and a system deployed as though it did would be worse than the inspector it replaced.</p>
+
+<h2>Connecting it to the model of the building</h2>
+<p>Characterisation becomes considerably more useful when the crack has a location in a structural model rather than a position in a photograph. That is why this work sits next to the scan-to-BIM research: a captured model gives the geometric baseline, and the monitoring layer records how it changes. Neither half is sufficient alone.</p>

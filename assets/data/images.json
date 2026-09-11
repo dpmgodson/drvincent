@@ -1,0 +1,159 @@
+{
+  "note": "Each slot renders localPath when that file exists in the repo at build time, otherwise remoteUrl. To replace an image: drop a file at localPath and re-run `node tools/build.js`. imginf.csv is generated from this file.",
+  "slots": [
+    {
+      "id": "home-hero",
+      "route": "/",
+      "purpose": "Homepage hero background (dark overlay applied)",
+      "remote": "photo-1503387762-592deb58ef4e",
+      "width": 1800,
+      "height": 1000,
+      "alt": "",
+      "decorative": true,
+      "brief": "PREFERRED: Dr. Vincent on campus or in the structures laboratory, wide shot with space on the left for the headline. Landscape, shot slightly underexposed so white type sits over it. Avoid posed group photos."
+    },
+    {
+      "id": "home-journey",
+      "route": "/",
+      "purpose": "One Journey / Many Dimensions section image",
+      "remote": "photo-1532094349884-543bc11b234d",
+      "width": 1400,
+      "height": 1000,
+      "alt": "Dr. Vincent Sam Jebadurai at work in the Division of Civil Engineering, Karunya Institute of Technology and Sciences",
+      "decorative": false,
+      "brief": "Dr. Vincent teaching, reviewing drawings, or talking with students. Candid rather than posed. Portrait or square crops badly here — supply landscape."
+    },
+    {
+      "id": "home-structures",
+      "route": "/",
+      "purpose": "From Building Structures to Building Lives editorial band",
+      "remote": "photo-1541888946425-d81bb19240f5",
+      "width": 1400,
+      "height": 1000,
+      "alt": "Reinforced concrete frame under construction",
+      "decorative": false,
+      "brief": "A real structure mid-construction — reinforcement visible, frame not yet clad. Site photography from a project he has been involved with is ideal."
+    },
+    {
+      "id": "about-portrait",
+      "route": "/about/",
+      "purpose": "About page portrait — highest priority replacement",
+      "remote": "photo-1507692049790-de58290a4334",
+      "width": 1000,
+      "height": 1250,
+      "alt": "Portrait of Dr. Vincent Sam Jebadurai",
+      "decorative": false,
+      "brief": "ESSENTIAL: a proper portrait of Dr. Vincent. Vertical 4:5, head and shoulders to mid-torso, plain or softly blurred background, natural light. This is the single most important image on the site — the stock placeholder should not ship to production."
+    },
+    {
+      "id": "academia-teaching",
+      "route": "/academia/",
+      "purpose": "Academia page feature",
+      "remote": "photo-1517646287270-1c5e7e2b4b5b",
+      "width": 1400,
+      "height": 1000,
+      "alt": "Teaching a structural engineering class",
+      "decorative": false,
+      "brief": "Dr. Vincent teaching — lecture hall, whiteboard or laboratory demonstration, students visible from behind. Obtain consent for any identifiable students."
+    },
+    {
+      "id": "research-lab",
+      "route": "/research/",
+      "purpose": "Research page feature",
+      "remote": "photo-1541888946425-d81bb19240f5",
+      "width": 1400,
+      "height": 1000,
+      "alt": "Structural testing in the laboratory",
+      "decorative": false,
+      "brief": "The structures lab: a wall panel or frame specimen in the loading rig, instrumentation visible. Photographs from the cyclic-loading tests would be strongest."
+    },
+    {
+      "id": "innovation-printing",
+      "route": "/innovation/",
+      "purpose": "Innovation page feature",
+      "remote": "photo-1558346490-a72e53ae2d4f",
+      "width": 1400,
+      "height": 1000,
+      "alt": "Concrete 3D printing equipment",
+      "decorative": false,
+      "brief": "The 3D concrete printing setup or the TriFusion prototype — nozzle, printed layers, or the multi-arm rig. Real project photography strongly preferred over stock."
+    },
+    {
+      "id": "projects-prototype",
+      "route": "/projects/",
+      "purpose": "Projects page feature",
+      "remote": "photo-1559027615-cd4628902d4a",
+      "width": 1400,
+      "height": 1000,
+      "alt": "Multi-arm 3D printing prototype under development",
+      "decorative": false,
+      "brief": "Work in progress on the KSRG multi-arm printing prototype, including the 2 ft x 2 ft working model once built."
+    },
+    {
+      "id": "leadership-institution",
+      "route": "/leadership/",
+      "purpose": "Leadership page feature",
+      "remote": "photo-1521737711867-e3b97375f902",
+      "width": 1400,
+      "height": 1000,
+      "alt": "Institutional quality assurance and accreditation work at Karunya Institute of Technology and Sciences",
+      "decorative": false,
+      "brief": "IQAC or accreditation context — a review meeting, the NAAC A++ announcement, or campus architecture. Avoid generic handshake stock."
+    },
+    {
+      "id": "institution-relations-mindspark",
+      "route": "/institution-relations/",
+      "purpose": "MINDSPARK case study image",
+      "remote": "photo-1504307651254-35680f356dfd",
+      "width": 1400,
+      "height": 1000,
+      "alt": "School students taking part in MINDSPARK: Flag Hunters",
+      "decorative": false,
+      "brief": "MINDSPARK: Flag Hunters — screenshots of the online hackathon interface, or participating school students. Secure parental consent for any identifiable minors before publishing."
+    },
+    {
+      "id": "speaking-session",
+      "route": "/speaking/",
+      "purpose": "Speaking page feature",
+      "remote": "photo-1475721027785-f74eccf877e2",
+      "width": 1400,
+      "height": 1000,
+      "alt": "Delivering a technical session",
+      "decorative": false,
+      "brief": "Dr. Vincent presenting — webinar screen capture, or at a lectern with a slide visible. The UltraTech and Indian Concrete Institute webinars are the documented engagements."
+    },
+    {
+      "id": "ministry-service",
+      "route": "/ministry/",
+      "purpose": "Ministry page feature",
+      "remote": "photo-1451187580459-43490279c0fa",
+      "width": 1400,
+      "height": 1000,
+      "alt": "",
+      "decorative": true,
+      "brief": "Restrained and non-literal — light, an open book, a quiet interior. Avoid overtly devotional stock imagery; the page is written in a reflective register, not a promotional one."
+    },
+    {
+      "id": "service-community",
+      "route": "/service/",
+      "purpose": "Service page feature",
+      "remote": "photo-1451187580459-43490279c0fa",
+      "width": 1400,
+      "height": 1000,
+      "alt": "Community and outreach work",
+      "decorative": false,
+      "brief": "Outreach or community engagement Dr. Vincent has actually taken part in. If no photograph exists, tell us and this slot will be replaced with a non-photographic treatment."
+    },
+    {
+      "id": "social-card",
+      "route": "*",
+      "purpose": "Default Open Graph / Twitter card image for all routes",
+      "remote": "photo-1503387762-592deb58ef4e",
+      "width": 1200,
+      "height": 630,
+      "alt": "Dr. Vincent Sam Jebadurai — Building Knowledge. Inspiring People. Serving with Purpose.",
+      "decorative": false,
+      "brief": "A 1200x630 card combining the portrait with the name and the tagline. This is what appears when the site is shared on WhatsApp, LinkedIn or X — currently a stock photo, which looks wrong in a share preview."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "slug": "3d-concrete-printing-in-construction",
+    "title": "3D Concrete Printing in Construction",
+    "summary": "What printing actually changes about building with concrete — and the reinforcement problem that decides whether it becomes structural.",
+    "researchAreas": ["3d-concrete-printing", "additive-manufacturing"],
+    "relatedPublications": ["additive-manufacturing-techniques-in-construction", "nano-silica-particles-as-a-structural-build-up-agent-for-3d-printing-cement-paste-with-add"],
+    "relatedPatents": ["3d-printing-head-reinforced-concrete", "alkaline-activated-cementitious-mixture-extrudable-3d-printer"]
+  },
+  {
+    "slug": "construction-automation-and-trifusion",
+    "title": "Construction Automation and TriFusion",
+    "summary": "Why automating deposition alone does not automate construction, and what a multi-arm system has to coordinate instead.",
+    "researchAreas": ["3d-concrete-printing", "additive-manufacturing"],
+    "relatedPublications": ["additive-manufacturing-techniques-in-construction"],
+    "relatedPatents": ["trifusion-3d-automated-building-construction-system"]
+  },
+  {
+    "slug": "deep-learning-for-building-crack-characterisation",
+    "title": "Deep Learning for Building Crack Characterisation",
+    "summary": "Reading cracks from images: what a model can classify reliably, and what still needs an engineer standing in front of the wall.",
+    "researchAreas": ["ai-ml-construction", "structural-health-monitoring"],
+    "relatedPublications": ["crack-characterisation-in-buildings-utilizing-deep-learning-techniques"],
+    "relatedPatents": []
+  },
+  {
+    "slug": "machine-learning-for-peb-fabrication",
+    "title": "Machine Learning for PEB Fabrication",
+    "summary": "Forecasting material and consumable demand in pre-engineered building fabrication from the records a workshop already keeps.",
+    "researchAreas": ["ai-ml-construction"],
+    "relatedPublications": ["material-forecasting-in-peb-fabrication-using-machine-learning-techniques", "prediction-of-consumables-requirement-in-peb-manufacturing-using-probabilistic-grouping-an"],
+    "relatedPatents": []
+  },
+  {
+    "slug": "scan-to-bim-and-structural-monitoring",
+    "title": "Scan-to-BIM and Structural Monitoring",
+    "summary": "Most buildings have no model. Building one from a scan is the first step toward monitoring what is actually there.",
+    "researchAreas": ["bim-scan-to-bim", "structural-health-monitoring"],
+    "relatedPublications": ["integrating-scan-data-to-enhance-bim-an-overview-of-techniques-mapping-strategies-and-buil"],
+    "relatedPatents": []
+  },
+  {
+    "slug": "skin-reinforcement-for-masonry-infill",
+    "title": "Skin Reinforcement for Masonry Infill",
+    "summary": "The doctoral question in plain terms: how to restrain a masonry wall inside a concrete frame using materials a mason already has.",
+    "researchAreas": ["seismic-strengthening", "masonry-structures"],
+    "relatedPublications": ["enhancing-performance-of-infill-masonry-with-skin-reinforcement-subjected-to-cyclic-load", "skin-reinforcement-for-masonry-infill-walls-subjected-to-cyclic-loading", "analytical-approach-to-estimate-equivalent-strut-width-for-wire-meshed-masonry-infilled-rc"],
+    "relatedPatents": ["gi-nettings-rcc-beam-column-joint"]
+  }
+]

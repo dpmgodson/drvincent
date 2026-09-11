@@ -1,0 +1,915 @@
+[
+  {
+    "slug": "ai-based-analysis-of-climatic-and-air-pollution-determinants-of-dog-bite-incidence",
+    "title": "AI-based analysis of climatic and air pollution determinants of dog bite incidence",
+    "authors": [
+      "Gautam, S.",
+      "Lakra, A.R.",
+      "Athish, N.S.",
+      "Asirvatham, L.G.",
+      "Rakshith, B.L.",
+      "Ho, C.-H.",
+      "Singh, V.V.",
+      "Jebadurai, V.S.",
+      "Babu, L.R."
+    ],
+    "year": 2026,
+    "journal": "Frontiers in Veterinary Science",
+    "type": "journal",
+    "volume": "12",
+    "issue": null,
+    "pages": null,
+    "articleNumber": "1731641",
+    "doi": "10.3389/fvets.2025.1731641",
+    "note": null,
+    "researchAreas": [
+      "environment-health"
+    ],
+    "publisherUrl": "https://doi.org/10.3389/fvets.2025.1731641"
+  },
+  {
+    "slug": "prediction-of-consumables-requirement-in-peb-manufacturing-using-probabilistic-grouping-an",
+    "title": "Prediction of Consumables Requirement in PEB Manufacturing Using Probabilistic Grouping and Random Forest Regression",
+    "authors": [
+      "Raja, R.",
+      "Hemalatha, G.",
+      "Jebadurai, V.S.",
+      "Stephen, E.A.",
+      "Athish"
+    ],
+    "year": 2025,
+    "journal": "International Journal of Engineering Trends and Technology",
+    "type": "journal",
+    "volume": "73",
+    "issue": "8",
+    "pages": "254–261",
+    "articleNumber": null,
+    "doi": "10.14445/22315381/IJETT-V73I8P122",
+    "note": null,
+    "researchAreas": [
+      "ai-ml-construction",
+      "structural-engineering"
+    ],
+    "publisherUrl": "https://doi.org/10.14445/22315381/IJETT-V73I8P122"
+  },
+  {
+    "slug": "material-forecasting-in-peb-fabrication-using-machine-learning-techniques",
+    "title": "Material Forecasting in PEB Fabrication Using Machine Learning Techniques",
+    "authors": [
+      "Raja, R.",
+      "Hemalatha, G.",
+      "Jebadurai, V.S.",
+      "Stephen, E.A."
+    ],
+    "year": 2025,
+    "journal": "SSRG International Journal of Civil Engineering",
+    "type": "journal",
+    "volume": "12",
+    "issue": "6",
+    "pages": "83–90",
+    "articleNumber": null,
+    "doi": "10.14445/23488352/IJCE-V12I6P108",
+    "note": null,
+    "researchAreas": [
+      "ai-ml-construction"
+    ],
+    "publisherUrl": "https://doi.org/10.14445/23488352/IJCE-V12I6P108"
+  },
+  {
+    "slug": "crack-characterisation-in-buildings-utilizing-deep-learning-techniques",
+    "title": "Crack characterisation in buildings utilizing deep learning techniques",
+    "authors": [
+      "Jerushan, J.",
+      "Jebadurai, S.V.S.",
+      "Staines, N.J.",
+      "Subin, S.R.",
+      "Ebenezer, V.",
+      "Ebenezer, S.A.",
+      "Hemalatha, G."
+    ],
+    "year": 2025,
+    "journal": "Przegląd Elektrotechniczny",
+    "type": "journal",
+    "volume": "2025",
+    "issue": "2",
+    "pages": "137–143",
+    "articleNumber": null,
+    "doi": "10.15199/48.2025.02.32",
+    "note": null,
+    "researchAreas": [
+      "ai-ml-construction",
+      "structural-health-monitoring"
+    ],
+    "publisherUrl": "https://doi.org/10.15199/48.2025.02.32"
+  },
+  {
+    "slug": "preliminary-assessment-of-rural-airborne-microorganisms-as-emerging-environmental-hazards-",
+    "title": "Preliminary assessment of rural airborne microorganisms as emerging environmental hazards: seasonal variability and antimicrobial resistance in South India",
+    "authors": [
+      "Sudan, H.A.",
+      "Gautam, S.",
+      "Vincent Sam, J.S.",
+      "Rakshith, B.L.",
+      "Asirvatham, L.G.",
+      "Rachel, E.J.",
+      "Subith, D.",
+      "Benetta Mercy, A.K.",
+      "Henry, Y.",
+      "Ho, C.-H."
+    ],
+    "year": 2025,
+    "journal": "Frontiers in Environmental Science",
+    "type": "journal",
+    "volume": "13",
+    "issue": null,
+    "pages": null,
+    "articleNumber": "1736379",
+    "doi": "10.3389/fenvs.2025.1736379",
+    "note": null,
+    "researchAreas": [
+      "environment-health"
+    ],
+    "publisherUrl": "https://doi.org/10.3389/fenvs.2025.1736379"
+  },
+  {
+    "slug": "integrating-scan-data-to-enhance-bim-an-overview-of-techniques-mapping-strategies-and-buil",
+    "title": "Integrating Scan Data to Enhance BIM: An Overview of Techniques, Mapping Strategies and Building Life-Cycle Applications",
+    "authors": [
+      "Jerushan, J.",
+      "Enoch, K.",
+      "Jebadurai, V.S.S.",
+      "Hemalatha, G.",
+      "Arunraj, E.",
+      "Raja, R.S.",
+      "Nirmala, T.",
+      "Brindha, D."
+    ],
+    "year": 2024,
+    "journal": "Przegląd Elektrotechniczny",
+    "type": "journal",
+    "volume": "2024",
+    "issue": "10",
+    "pages": "93–100",
+    "articleNumber": null,
+    "doi": "10.15199/48.2024.10.17",
+    "note": null,
+    "researchAreas": [
+      "bim-scan-to-bim",
+      "structural-health-monitoring"
+    ],
+    "publisherUrl": "https://doi.org/10.15199/48.2024.10.17"
+  },
+  {
+    "slug": "effect-of-sea-sand-in-the-behaviour-of-fresh-concrete-partially-replaced-with-m-sand",
+    "title": "Effect of sea sand in the behaviour of fresh concrete partially replaced with M-sand",
+    "authors": [
+      "Neethu, S.",
+      "Tensing, D.",
+      "Vincent Sam Jebadurai, S."
+    ],
+    "year": 2024,
+    "journal": "Research on Engineering Structures and Materials",
+    "type": "journal",
+    "volume": "10",
+    "issue": "1",
+    "pages": "91–110",
+    "articleNumber": null,
+    "doi": "10.17515/resm2023.771ma0517",
+    "note": null,
+    "researchAreas": [
+      "construction-materials",
+      "sustainable-construction"
+    ],
+    "publisherUrl": "https://doi.org/10.17515/resm2023.771ma0517"
+  },
+  {
+    "slug": "experimental-study-of-the-seismic-performance-of-composite-frames-encased-with-mild-steel-",
+    "title": "Experimental Study of the Seismic Performance of Composite Frames Encased with Mild Steel under Cyclic Loading",
+    "authors": [
+      "Ebenezer, J.S.",
+      "Tensing, D.",
+      "Vijayalakshmi, D.",
+      "Jebadurai, S.V.S."
+    ],
+    "year": 2024,
+    "journal": "SSRG International Journal of Civil Engineering",
+    "type": "journal",
+    "volume": "11",
+    "issue": "11",
+    "pages": "36–44",
+    "articleNumber": null,
+    "doi": "10.14445/23488352/IJCE-V11I11P104",
+    "note": null,
+    "researchAreas": [
+      "structural-engineering",
+      "seismic-strengthening"
+    ],
+    "publisherUrl": "https://doi.org/10.14445/23488352/IJCE-V11I11P104"
+  },
+  {
+    "slug": "comparative-study-on-a-single-story-rcc-frame-with-large-and-small-scale-magnetorheologica",
+    "title": "Comparative study on a single-story RCC frame with large and small-scale magnetorheological damper subjected to seismic excitation",
+    "authors": [
+      "Vivekananda Sharma, S.",
+      "Hemalatha, G.",
+      "Arunraj, E.",
+      "Daniel, C.",
+      "Sam Jebadurai, V."
+    ],
+    "year": 2023,
+    "journal": "Structures",
+    "type": "journal",
+    "volume": "57",
+    "issue": null,
+    "pages": null,
+    "articleNumber": "105193",
+    "doi": "10.1016/j.istruc.2023.105193",
+    "note": "Elsevier",
+    "researchAreas": [
+      "structural-engineering",
+      "seismic-strengthening"
+    ],
+    "publisherUrl": "https://doi.org/10.1016/j.istruc.2023.105193"
+  },
+  {
+    "slug": "assessment-of-metakaolin-blended-palm-kernel-shell-solid-concrete-blocks-as-a-sustainable-",
+    "title": "Assessment of Metakaolin Blended Palm Kernel Shell Solid Concrete Blocks as a Sustainable Building Material",
+    "authors": [
+      "John, N.",
+      "Tensing, D.",
+      "Vincent Sam Jebadurai, S.",
+      "Srisanthi, V.G."
+    ],
+    "year": 2023,
+    "journal": "IOP Conference Series: Earth and Environmental Science",
+    "type": "proceedings",
+    "volume": "1237",
+    "issue": "1",
+    "pages": null,
+    "articleNumber": "012002",
+    "doi": "10.1088/1755-1315/1237/1/012002",
+    "note": null,
+    "researchAreas": [
+      "construction-materials",
+      "sustainable-construction"
+    ],
+    "publisherUrl": "https://doi.org/10.1088/1755-1315/1237/1/012002"
+  },
+  {
+    "slug": "an-experimental-study-on-composite-steel-encased-portal-frame-under-cyclic-loading",
+    "title": "An experimental study on composite steel encased portal frame under cyclic loading",
+    "authors": [
+      "Sheeba Ebenezer, J.",
+      "Tensing, D.",
+      "Vincent Sam Jebadurai, S."
+    ],
+    "year": 2023,
+    "journal": "Research on Engineering Structures and Materials",
+    "type": "journal",
+    "volume": "9",
+    "issue": "1",
+    "pages": "277–291",
+    "articleNumber": null,
+    "doi": "10.17515/resm2022.426ie0408",
+    "note": null,
+    "researchAreas": [
+      "structural-engineering",
+      "seismic-strengthening"
+    ],
+    "publisherUrl": "https://doi.org/10.17515/resm2022.426ie0408"
+  },
+  {
+    "slug": "additive-manufacturing-techniques-in-construction",
+    "title": "Additive manufacturing techniques in construction",
+    "authors": [
+      "Sheeja, T.V.",
+      "Jebadurai, S.V.S.",
+      "Tensing, D."
+    ],
+    "year": 2022,
+    "journal": "Research on Engineering Structures and Materials",
+    "type": "journal",
+    "volume": "8",
+    "issue": "3",
+    "pages": "535–551",
+    "articleNumber": null,
+    "doi": "10.17515/resm2022.386ma1401",
+    "note": null,
+    "researchAreas": [
+      "additive-manufacturing",
+      "3d-concrete-printing"
+    ],
+    "publisherUrl": "https://doi.org/10.17515/resm2022.386ma1401"
+  },
+  {
+    "slug": "nano-silica-particles-as-a-structural-build-up-agent-for-3d-printing-cement-paste-with-add",
+    "title": "Nano Silica Particles as a Structural Build-Up Agent for 3D Printing Cement Paste with Additional Accelerators",
+    "authors": [
+      "Sam, V.S.",
+      "Hemalatha, G.",
+      "Vincent Sam Jebadurai, S.",
+      "Arunraj, E.",
+      "Jensika Rani, J."
+    ],
+    "year": 2022,
+    "journal": "Materials Research Proceedings",
+    "type": "proceedings",
+    "volume": "23",
+    "issue": null,
+    "pages": "231–237",
+    "articleNumber": null,
+    "doi": "10.21741/9781644901953-26",
+    "note": "Sustainable Materials and Smart Practices, NCSMSP-2021",
+    "researchAreas": [
+      "3d-concrete-printing",
+      "construction-materials"
+    ],
+    "publisherUrl": "https://doi.org/10.21741/9781644901953-26"
+  },
+  {
+    "slug": "a-constructive-analysis-on-topology-optimization-of-structural-beam-element-using-differen",
+    "title": "A Constructive Analysis on Topology Optimization of Structural Beam Element Using Different Support Condition",
+    "authors": [
+      "Jensika Rani, J.",
+      "Hemalatha, G.",
+      "Praveen, B.",
+      "Vincent Sam Jebadurai, S."
+    ],
+    "year": 2022,
+    "journal": "Materials Research Proceedings",
+    "type": "proceedings",
+    "volume": "23",
+    "issue": null,
+    "pages": "238–245",
+    "articleNumber": null,
+    "doi": "10.21741/9781644901953-27",
+    "note": "NCSMSP-2021",
+    "researchAreas": [
+      "structural-engineering"
+    ],
+    "publisherUrl": "https://doi.org/10.21741/9781644901953-27"
+  },
+  {
+    "slug": "bioaerosols-characterization-pathways-sampling-strategies-and-challenges-to-geo-environmen",
+    "title": "Bioaerosols: Characterization, pathways, sampling strategies, and challenges to geo-environment and health",
+    "authors": [
+      "Gollakota, A.R.K.",
+      "Gautam, S.",
+      "Santosh, M.",
+      "Sudan, H.A.",
+      "Gandhi, R.",
+      "Sam Jebadurai, V.",
+      "Shu, C.-M."
+    ],
+    "year": 2021,
+    "journal": "Gondwana Research",
+    "type": "journal",
+    "volume": "99",
+    "issue": null,
+    "pages": "178–203",
+    "articleNumber": null,
+    "doi": "10.1016/j.gr.2021.07.003",
+    "note": null,
+    "researchAreas": [
+      "environment-health"
+    ],
+    "publisherUrl": "https://doi.org/10.1016/j.gr.2021.07.003"
+  },
+  {
+    "slug": "analytical-approach-to-estimate-equivalent-strut-width-for-wire-meshed-masonry-infilled-rc",
+    "title": "Analytical Approach to Estimate Equivalent Strut Width for Wire Meshed Masonry Infilled RC Frame under Dynamic Loading",
+    "authors": [
+      "Jebadurai, S.V.S.",
+      "Tensing, D.",
+      "Daniel, C.",
+      "Arunraj, E.",
+      "Hemalatha, G."
+    ],
+    "year": 2021,
+    "journal": "Civil Engineering and Architecture",
+    "type": "journal",
+    "volume": "9",
+    "issue": "4",
+    "pages": "1198–1205",
+    "articleNumber": null,
+    "doi": "10.13189/cea.2021.090421",
+    "note": null,
+    "researchAreas": [
+      "masonry-structures",
+      "seismic-strengthening",
+      "structural-engineering"
+    ],
+    "publisherUrl": "https://doi.org/10.13189/cea.2021.090421"
+  },
+  {
+    "slug": "enhancing-performance-of-infill-masonry-with-latex-modified-mortar-subjected-to-cyclic-loa",
+    "title": "Enhancing performance of infill masonry with latex modified mortar subjected to cyclic load",
+    "authors": [
+      "Jebadurai, S.V.S.",
+      "Tensing, D.",
+      "Pradhan, P.M.",
+      "Hemalatha, G."
+    ],
+    "year": 2020,
+    "journal": "Structures",
+    "type": "journal",
+    "volume": "23",
+    "issue": null,
+    "pages": "551–557",
+    "articleNumber": null,
+    "doi": "10.1016/j.istruc.2019.11.001",
+    "note": "Elsevier",
+    "researchAreas": [
+      "masonry-structures",
+      "seismic-strengthening",
+      "construction-materials"
+    ],
+    "publisherUrl": "https://doi.org/10.1016/j.istruc.2019.11.001"
+  },
+  {
+    "slug": "optimization-in-the-design-of-prestressed-concrete-girders-using-excel-and-matlab",
+    "title": "Optimization in the Design of Prestressed Concrete Girders using Excel and MATLAB",
+    "authors": [
+      "Tensing, D.",
+      "Vincent Sam Jebadurai, S.",
+      "Paulson, J.",
+      "Rahul, A.V.",
+      "Jefrey, K."
+    ],
+    "year": 2020,
+    "journal": "International Journal on Emerging Technologies",
+    "type": "journal",
+    "volume": "11",
+    "issue": "2",
+    "pages": "420–426",
+    "articleNumber": null,
+    "doi": null,
+    "note": null,
+    "researchAreas": [
+      "structural-engineering"
+    ],
+    "publisherUrl": null
+  },
+  {
+    "slug": "experimental-studies-on-application-of-bamboo-reinforcement-in-concrete-stools",
+    "title": "Experimental Studies on Application of Bamboo Reinforcement in Concrete Stools",
+    "authors": [
+      "Tensing, D.",
+      "Vincent Sam Jebadurai, S.",
+      "Joe Paulson, A.",
+      "Devadass, C.S.C."
+    ],
+    "year": 2020,
+    "journal": "Test Engineering and Management",
+    "type": "journal",
+    "volume": "83",
+    "issue": null,
+    "pages": "18295–18305",
+    "articleNumber": null,
+    "doi": null,
+    "note": null,
+    "researchAreas": [
+      "construction-materials",
+      "sustainable-construction"
+    ],
+    "publisherUrl": null
+  },
+  {
+    "slug": "investigations-of-confined-steel-concrete-column-behavior-with-bolted-shear-connectors-und",
+    "title": "Investigations of Confined Steel Concrete Column Behavior with Bolted Shear Connectors Under Axial Load",
+    "authors": [
+      "Shobby Margret, L.",
+      "Tensing, D.",
+      "Vincent Sam Jebadurai, S.",
+      "Kevin Jefrey, P.",
+      "Rahul, A.V."
+    ],
+    "year": 2020,
+    "journal": "Test Engineering and Management",
+    "type": "journal",
+    "volume": "83",
+    "issue": null,
+    "pages": "18944–18951",
+    "articleNumber": null,
+    "doi": null,
+    "note": null,
+    "researchAreas": [
+      "structural-engineering"
+    ],
+    "publisherUrl": null
+  },
+  {
+    "slug": "enhancing-performance-of-infill-masonry-with-skin-reinforcement-subjected-to-cyclic-load",
+    "title": "Enhancing Performance of Infill Masonry with Skin Reinforcement Subjected to Cyclic Load",
+    "authors": [
+      "Vincent Sam Jebadurai, S.",
+      "Tensing, D.",
+      "Freeda Christy, C."
+    ],
+    "year": 2019,
+    "journal": "International Journal of Engineering, Transactions B: Applications",
+    "type": "journal",
+    "volume": "32",
+    "issue": "2",
+    "pages": "223–228",
+    "articleNumber": null,
+    "doi": "10.5829/ije.2019.32.02b.06",
+    "note": null,
+    "researchAreas": [
+      "masonry-structures",
+      "seismic-strengthening"
+    ],
+    "publisherUrl": "https://doi.org/10.5829/ije.2019.32.02b.06"
+  },
+  {
+    "slug": "experimental-study-on-compressive-strength-of-brick-using-natural-fibres",
+    "title": "Experimental study on compressive strength of brick using natural fibres",
+    "authors": [
+      "Arunraj, E.",
+      "Vincent Sam Jebadurai, S.",
+      "Daniel, C.",
+      "Joel Shelton, J.",
+      "Hemalatha, G."
+    ],
+    "year": 2019,
+    "journal": "International Journal of Engineering, Transactions B: Applications",
+    "type": "journal",
+    "volume": "32",
+    "issue": "6",
+    "pages": "799–804",
+    "articleNumber": null,
+    "doi": "10.5829/ije.2019.32.06c.01",
+    "note": null,
+    "researchAreas": [
+      "masonry-structures",
+      "construction-materials",
+      "sustainable-construction"
+    ],
+    "publisherUrl": "https://doi.org/10.5829/ije.2019.32.06c.01"
+  },
+  {
+    "slug": "analytical-investigation-of-buckling-restrained-braced-frame-subjected-to-non-linear-stati",
+    "title": "Analytical investigation of buckling restrained braced frame subjected to non-linear static analysis",
+    "authors": [
+      "Arunraj, E.",
+      "Vincent Sam Jebadurai, S.",
+      "Samuel Abraham, D.",
+      "Daniel, C.",
+      "Hemalatha, G."
+    ],
+    "year": 2019,
+    "journal": "International Journal of Engineering and Advanced Technology",
+    "type": "journal",
+    "volume": "8",
+    "issue": "5",
+    "pages": "334–338",
+    "articleNumber": null,
+    "doi": null,
+    "note": null,
+    "researchAreas": [
+      "structural-engineering",
+      "seismic-strengthening"
+    ],
+    "publisherUrl": null
+  },
+  {
+    "slug": "dynamic-analysis-of-structure-using-fluid-viscous-damper-for-various-seismic-intensities",
+    "title": "Dynamic analysis of structure using fluid viscous damper for various seismic intensities",
+    "authors": [
+      "Daniel, C.",
+      "Arunraj, E.",
+      "Vincent Sam Jebadurai, S.",
+      "Joel Shelton, J.",
+      "Hemalatha, G."
+    ],
+    "year": 2019,
+    "journal": "International Journal of Innovative Technology and Exploring Engineering",
+    "type": "journal",
+    "volume": "9",
+    "issue": "1",
+    "pages": "517–520",
+    "articleNumber": null,
+    "doi": "10.35940/ijitee.J1116.119119",
+    "note": null,
+    "researchAreas": [
+      "structural-engineering",
+      "seismic-strengthening"
+    ],
+    "publisherUrl": "https://doi.org/10.35940/ijitee.J1116.119119"
+  },
+  {
+    "slug": "a-review-on-optimal-design-of-magneto-rheological-damper",
+    "title": "A review on optimal design of magneto-rheological damper",
+    "authors": [
+      "Daniel, C.",
+      "Hemalatha, G.",
+      "Arunraj, E.",
+      "Vincent Sam Jebadurai, S.",
+      "Sarala, L."
+    ],
+    "year": 2018,
+    "journal": "International Journal of Mechanical and Production Engineering Research and Development",
+    "type": "journal",
+    "volume": "8",
+    "issue": "6",
+    "pages": "569–578",
+    "articleNumber": null,
+    "doi": "10.24247/ijmperddec201860",
+    "note": null,
+    "researchAreas": [
+      "structural-engineering",
+      "seismic-strengthening"
+    ],
+    "publisherUrl": "https://doi.org/10.24247/ijmperddec201860"
+  },
+  {
+    "slug": "bridge-of-i-35-design-using-pg-super",
+    "title": "Bridge of I-35 Design using PG Super",
+    "authors": [
+      "Kumar, L.",
+      "Mani, A.",
+      "Arunraj, E.",
+      "Jebadurai, V.S.S.",
+      "Daniel, C.",
+      "Shelton, J.J.",
+      "Hemalatha, G."
+    ],
+    "year": 2018,
+    "journal": "International Journal of Civil Engineering and Technology",
+    "type": "journal",
+    "volume": "9",
+    "issue": "6",
+    "pages": "355–362",
+    "articleNumber": null,
+    "doi": null,
+    "note": null,
+    "researchAreas": [
+      "structural-engineering"
+    ],
+    "publisherUrl": null
+  },
+  {
+    "slug": "experimental-investigation-of-toughness-enhancement-in-cement-mortar",
+    "title": "Experimental investigation of toughness enhancement in cement mortar",
+    "authors": [
+      "Jebadurai, S.V.S.",
+      "Tensing, D.",
+      "Hemalatha, G.",
+      "Siva, R."
+    ],
+    "year": 2018,
+    "journal": "International Journal of Engineering, Transactions B: Applications",
+    "type": "journal",
+    "volume": "31",
+    "issue": "11",
+    "pages": "1824–1829",
+    "articleNumber": null,
+    "doi": "10.5829/ije.2018.31.11b.04",
+    "note": null,
+    "researchAreas": [
+      "construction-materials"
+    ],
+    "publisherUrl": "https://doi.org/10.5829/ije.2018.31.11b.04"
+  },
+  {
+    "slug": "influence-of-stiffness-and-mass-parameters-on-seismic-damping-of-structures",
+    "title": "Influence of stiffness and mass parameters on seismic damping of structures",
+    "authors": [
+      "Rakshita, R.",
+      "Daniel, C.",
+      "Vincent Sam Jebadurai, S.",
+      "Sarala, L.",
+      "Arun Raj, E.",
+      "Hemalatha, G."
+    ],
+    "year": 2018,
+    "journal": "International Journal of Engineering and Advanced Technology",
+    "type": "journal",
+    "volume": "8",
+    "issue": "2",
+    "pages": "58–62",
+    "articleNumber": null,
+    "doi": null,
+    "note": null,
+    "researchAreas": [
+      "structural-engineering",
+      "seismic-strengthening"
+    ],
+    "publisherUrl": null
+  },
+  {
+    "slug": "influence-of-wind-loads-design-of-indian-code-compared-with-american-code",
+    "title": "Influence of wind loads design of Indian code compared with American code",
+    "authors": [
+      "Daniel, C.",
+      "Levin Daniel, J.V.",
+      "Joel Shelton, J.",
+      "Arun Raj, E.",
+      "Vincent Sam Jebadurai, S.",
+      "Hemalatha, G."
+    ],
+    "year": 2017,
+    "journal": "International Journal of Civil Engineering and Technology",
+    "type": "journal",
+    "volume": "8",
+    "issue": "5",
+    "pages": "676–685",
+    "articleNumber": null,
+    "doi": null,
+    "note": null,
+    "researchAreas": [
+      "structural-engineering"
+    ],
+    "publisherUrl": null
+  },
+  {
+    "slug": "effect-of-inhibitive-influence-of-aqueous-extract-of-fenugreek-sprouts-on-the-corrosion-of",
+    "title": "Effect of inhibitive influence of aqueous extract of Fenugreek sprouts on the corrosion of aluminium in 1N NaOH",
+    "authors": [
+      "Levin Daniel, J.V.",
+      "Daniel, C.",
+      "Shelton, J.J.",
+      "Raj, E.A.",
+      "Sam Jebadurai, S.V.",
+      "Hemalatha, G."
+    ],
+    "year": 2017,
+    "journal": "International Journal of Mechanical Engineering and Technology",
+    "type": "journal",
+    "volume": "8",
+    "issue": "5",
+    "pages": "638–646",
+    "articleNumber": null,
+    "doi": null,
+    "note": null,
+    "researchAreas": [
+      "construction-materials"
+    ],
+    "publisherUrl": null
+  },
+  {
+    "slug": "feasibility-test-of-calcium-lignosulphonate-on-clay",
+    "title": "Feasibility test of calcium lignosulphonate on clay",
+    "authors": [
+      "Vincent Sam Jebadurai, S.",
+      "Arunraj, E.",
+      "Daniel, C.",
+      "Joel Shelton, J.",
+      "Subukumar, G.",
+      "Judith Emiliah Christy, S.S.",
+      "Sarala, L.",
+      "Hemalatha, G."
+    ],
+    "year": 2017,
+    "journal": "Rasayan Journal of Chemistry",
+    "type": "journal",
+    "volume": "10",
+    "issue": "4",
+    "pages": "1481–1491",
+    "articleNumber": null,
+    "doi": "10.7324/RJC.2017.1041915",
+    "note": null,
+    "researchAreas": [
+      "construction-materials",
+      "sustainable-construction"
+    ],
+    "publisherUrl": "https://doi.org/10.7324/RJC.2017.1041915"
+  },
+  {
+    "slug": "skin-reinforcement-for-masonry-infill-walls-subjected-to-cyclic-loading",
+    "title": "Skin reinforcement for masonry infill walls subjected to cyclic loading",
+    "authors": [
+      "Vincent Sam Jebadurai, S.",
+      "Tensing, D."
+    ],
+    "year": 2017,
+    "journal": "International Journal of Civil Engineering and Technology",
+    "type": "journal",
+    "volume": "8",
+    "issue": "4",
+    "pages": "1196–1206",
+    "articleNumber": null,
+    "doi": null,
+    "note": null,
+    "researchAreas": [
+      "masonry-structures",
+      "seismic-strengthening"
+    ],
+    "publisherUrl": null
+  },
+  {
+    "slug": "mechanical-properties-of-latex-mortar-for-brick-masonry",
+    "title": "Mechanical properties of latex mortar for brick masonry",
+    "authors": [
+      "Jebadurai, V.S.S.",
+      "Tensing, D."
+    ],
+    "year": 2016,
+    "journal": "International Journal of Civil Engineering and Technology",
+    "type": "journal",
+    "volume": "7",
+    "issue": "6",
+    "pages": "400–407",
+    "articleNumber": null,
+    "doi": null,
+    "note": null,
+    "researchAreas": [
+      "masonry-structures",
+      "construction-materials"
+    ],
+    "publisherUrl": null
+  },
+  {
+    "slug": "bulk-usage-of-fly-ash-in-self-compacting-concrete-for-m50-grade",
+    "title": "Bulk Usage of Fly Ash in Self Compacting Concrete for M50 Grade",
+    "authors": [
+      "Jayanthi, S.",
+      "Daniel, C.",
+      "Vincent Sam Jebadurai, S."
+    ],
+    "year": 2016,
+    "journal": "International Journal of Engineering Research and General Science",
+    "type": "journal",
+    "volume": "4",
+    "issue": "3",
+    "pages": "67–70",
+    "articleNumber": null,
+    "doi": null,
+    "note": "ISSN 2091-2730; May–June 2016",
+    "researchAreas": [
+      "construction-materials",
+      "sustainable-construction"
+    ],
+    "publisherUrl": null
+  },
+  {
+    "slug": "studies-on-high-strength-self-compacting-concrete-with-copper-slag-for-m30-grade",
+    "title": "Studies on High Strength Self Compacting Concrete with Copper Slag for M30 Grade",
+    "authors": [
+      "Daniel, C.",
+      "Joel Shelton, J.",
+      "Vincent Sam Jebadurai, S.",
+      "Arun Raj, E."
+    ],
+    "year": 2016,
+    "journal": "International Journal of Research in Engineering and Technology",
+    "type": "journal",
+    "volume": "4",
+    "issue": null,
+    "pages": "74–78",
+    "articleNumber": null,
+    "doi": null,
+    "note": null,
+    "researchAreas": [
+      "construction-materials",
+      "sustainable-construction"
+    ],
+    "publisherUrl": null
+  },
+  {
+    "slug": "investigation-on-strength-properties-of-self-compacting-concrete-with-copper-slag-as-fine-",
+    "title": "Investigation on Strength Properties of Self Compacting Concrete with Copper Slag as Fine Aggregate for M25 Grade Concrete",
+    "authors": [
+      "Daniel, C.",
+      "Joel Shelton, J.",
+      "Vincent Sam Jebadurai, S."
+    ],
+    "year": 2016,
+    "journal": "International Journal of Engineering Research and General Science",
+    "type": "journal",
+    "volume": "4",
+    "issue": "1",
+    "pages": null,
+    "articleNumber": null,
+    "doi": null,
+    "note": "ISSN 2091-2730; January–February 2016",
+    "researchAreas": [
+      "construction-materials",
+      "sustainable-construction"
+    ],
+    "publisherUrl": null
+  },
+  {
+    "slug": "behaviour-of-confined-masonry-wall-under-cyclic-load",
+    "title": "Behaviour of confined masonry wall under cyclic load",
+    "authors": [
+      "Babu, C.",
+      "Vincent Sam Jebadurai, S.",
+      "Tensing, D."
+    ],
+    "year": 2015,
+    "journal": "Integrated Journal of Engineering Research and Technology",
+    "type": "journal",
+    "volume": null,
+    "issue": null,
+    "pages": "136–142",
+    "articleNumber": null,
+    "doi": null,
+    "note": "ISSN 2348-6821",
+    "researchAreas": [
+      "masonry-structures",
+      "seismic-strengthening"
+    ],
+    "publisherUrl": null
+  }
+]

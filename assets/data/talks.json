@@ -1,0 +1,38 @@
+[
+  {
+    "slug": "fascinating-story-of-cement-and-concrete",
+    "title": "Fascinating Story of Cement and Concrete",
+    "format": "Webinar",
+    "date": "2022-01-22",
+    "displayDate": "22 January 2022",
+    "organisers": "UltraTech Cement Ltd. and the Indian Concrete Institute — Ghaziabad Centre",
+    "chair": "Dr. N. C. Pal, Engineer-in-Chief (Design), Government of Odisha",
+    "audience": "Practising engineers and concrete-industry professionals",
+    "summary": "How cement and concrete came to be what they are, and why the material's history still shapes how it is specified and used on site.",
+    "researchAreas": ["construction-materials"]
+  },
+  {
+    "slug": "performance-evaluation-of-concrete-road",
+    "title": "Performance Evaluation of Concrete Road",
+    "format": "Webinar",
+    "date": "2022-01-15",
+    "displayDate": "15 January 2022",
+    "organisers": "UltraTech Cement Ltd. and the Indian Concrete Institute — Ghaziabad Centre",
+    "chair": "Dr. Tanuj Chopra, Thapar Institute of Engineering & Technology, Patiala",
+    "audience": "Practising engineers and highway professionals",
+    "summary": "How concrete pavements are assessed in service, and what performance evaluation tells you that design assumptions do not.",
+    "researchAreas": ["construction-materials"]
+  },
+  {
+    "slug": "fdp-islamiyah-matriculation-coimbatore",
+    "title": "Faculty Development Programme",
+    "format": "Resource Person",
+    "date": "2026",
+    "displayDate": "2026",
+    "organisers": "Islamiyah Matriculation Higher Secondary School, Coimbatore — deputed by Karunya Institute of Technology and Sciences",
+    "chair": null,
+    "audience": "School teaching staff",
+    "summary": "A faculty development session for school teachers, delivered as part of Karunya's school engagement work.",
+    "researchAreas": []
+  }
+]
