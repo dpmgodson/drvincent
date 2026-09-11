@@ -22,7 +22,7 @@ PAGES
   /privacy-policy/  —  Privacy Policy
   /terms/  —  Terms of Use
 
-PUBLICATION PAGES (37)
+PUBLICATION PAGES (40)
   /publications/ai-based-analysis-of-climatic-and-air-pollution-determinants-of-dog-bite-incidence/  —  2026 Frontiers in Veterinary Science
   /publications/prediction-of-consumables-requirement-in-peb-manufacturing-using-probabilistic-grouping-an/  —  2025 International Journal of Engineering Trends and Technology
   /publications/material-forecasting-in-peb-fabrication-using-machine-learning-techniques/  —  2025 SSRG International Journal of Civil Engineering
@@ -60,6 +60,9 @@ PUBLICATION PAGES (37)
   /publications/studies-on-high-strength-self-compacting-concrete-with-copper-slag-for-m30-grade/  —  2016 International Journal of Research in Engineering and Technology
   /publications/investigation-on-strength-properties-of-self-compacting-concrete-with-copper-slag-as-fine-/  —  2016 International Journal of Engineering Research and General Science
   /publications/behaviour-of-confined-masonry-wall-under-cyclic-load/  —  2015 Integrated Journal of Engineering Research and Technology
+  /publications/towards-sustainable-infrastructure-a-framework-for-automated-extraction-of/  —  2024 IRO Journals
+  /publications/a-review-on-confined-masonry-wall-with-opening-under-cyclic-loading/  —  null null
+  /publications/experimental-and-analysis-technique-of-confinement-of-brick-masonry-without-openings/  —  null null
 
 ARTICLE PAGES (6)
   /articles/3d-concrete-printing-in-construction/  —  3D Concrete Printing in Construction
@@ -79,9 +82,6 @@ REDIRECTS (V0.6 routes preserved, nothing 404s)
   /philanthropist/  ->  /service/
   /manager-institution-relations/  ->  /institution-relations/
   /patents/  ->  /innovation/
-  /publications/a-review-on-confined-masonry-wall-with-opening-under-cyclic-loading/  ->  /publications/
-  /publications/experimental-and-analysis-technique-of-confinement-of-brick-masonry-without-openings/  ->  /publications/
-  /publications/towards-sustainable-infrastructure-a-framework-for-automated-extraction-of/  ->  /publications/
 
 OTHER
   /404.html, /sitemap.xml, /robots.txt, /site.webmanifest, /imginf.csv

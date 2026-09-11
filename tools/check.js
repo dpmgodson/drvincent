@@ -145,6 +145,44 @@ for (const f of files) {
 }
 if (!cdn) console.log('  OK    no CDN script or stylesheet dependencies remain');
 
+/* -------------------------------------------------- selector collisions */
+/* Regression guard. site.js once used querySelectorAll('[data-year]') to stamp the
+   footer copyright year. Publication rows also carry data-year="2019" for filtering,
+   so every row had its content replaced by the year and the page looked empty.
+   Any site-wide selector must not match an attribute the generator emits for data. */
+console.log('\nScript selector collisions');
+const js = fs.readFileSync(path.join(ROOT, 'assets/js/site.js'), 'utf8');
+const DATA_ATTRS = ['data-year', 'data-areas', 'data-type', 'data-text'];
+let collisions = 0;
+for (const attr of DATA_ATTRS) {
+  const re = new RegExp("querySelectorAll\\(\\s*['\"]\\[" + attr + "\\]", 'g');
+  if (re.test(js)) { err('site.js selects [' + attr + '] site-wide, which also matches generated row data'); collisions++; }
+}
+for (const f of files) {
+  const n = (fs.readFileSync(f, 'utf8').match(/data-current-year/g) || []).length;
+  if (n > 1) { err(path.relative(ROOT, f) + ' has ' + n + ' data-current-year elements (expected at most 1)'); collisions++; }
+}
+if (!collisions) console.log('  OK    no site-wide selector overlaps a generated data attribute');
+
+/* ------------------------------------------------------- count drift */
+console.log('\nStated counts match the data');
+const WORDS2 = ['zero','one','two','three','four','five','six','seven','eight','nine','ten','eleven','twelve',
+  'thirteen','fourteen','fifteen','sixteen','seventeen','eighteen','nineteen','twenty','twenty-one','twenty-two',
+  'twenty-three','twenty-four','twenty-five','twenty-six','twenty-seven','twenty-eight','twenty-nine','thirty',
+  'thirty-one','thirty-two','thirty-three','thirty-four','thirty-five','thirty-six','thirty-seven','thirty-eight',
+  'thirty-nine','forty'];
+const expected = WORDS2[pubs.length] || String(pubs.length);
+let drift = 0;
+for (const f of files) {
+  const html = fs.readFileSync(f, 'utf8');
+  const m = html.match(/([A-Za-z-]+|\d+)\s+refereed papers/i);
+  if (m && m[1].toLowerCase() !== expected && m[1] !== String(pubs.length)) {
+    err(path.relative(ROOT, f) + ' claims "' + m[1] + ' refereed papers" but the data holds ' + pubs.length);
+    drift++;
+  }
+}
+if (!drift) console.log('  OK    publication count in prose agrees with the data (' + pubs.length + ')');
+
 console.log('\n' + (errors ? 'FAILED: ' + errors + ' error(s), ' + warnings + ' warning(s)' :
   'PASSED' + (warnings ? ' with ' + warnings + ' warning(s)' : '')));
 process.exit(errors ? 1 : 0);

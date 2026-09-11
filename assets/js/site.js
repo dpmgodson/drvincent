@@ -40,8 +40,10 @@
 
   /* ------------------------------------------------------------ year */
   function initYear() {
+    // Must be [data-current-year], not [data-year]: publication rows carry
+    // data-year="2019" for filtering, and a looser selector overwrites them.
     var y = String(new Date().getFullYear());
-    Array.prototype.forEach.call(document.querySelectorAll('[data-year]'), function (el) {
+    Array.prototype.forEach.call(document.querySelectorAll('[data-current-year]'), function (el) {
       el.textContent = y;
     });
   }

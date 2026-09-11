@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 1000" width="1800" height="1000" role="img" aria-label="HOME HERO placeholder">
+  <defs>
+    <pattern id="g" width="112.5" height="112.5" patternUnits="userSpaceOnUse">
+      <path d="M 112.5 0 L 0 0 0 112.5" fill="none" stroke="#FFFFFF" stroke-opacity="0.10" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1800" height="1000" fill="#10293D"/>
+  <rect width="1800" height="1000" fill="url(#g)"/>
+  
+  <path d="M 0 998.5 L 1800 998.5" stroke="#E46F2E" stroke-width="3"/>
+  <path d="M 112.5 112.5 L 292.5 112.5" stroke="#E46F2E" stroke-width="3"/>
+  <text x="112.5" y="236.25" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="55" font-weight="700" letter-spacing="1">HOME HERO</text>
+  <text x="112.5" y="348.75" fill="#A9BBC7" font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="38">1800 &#215; 1000 &#183; replace with a photograph</text>
+</svg>
